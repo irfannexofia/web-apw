@@ -1,11 +1,9 @@
 import logo from "@/assets/images/logo-navbar.svg";
 import "@/assets/scss/style.scss";
-import StructuredData from "@/components/StructuredData";
 import AppProviders from "@/components/wrappers/AppProviders";
 import { generateMetadata as generateMetadataFn } from "@/lib/metadata";
 import { Metadata } from "next";
 import Image from "next/image";
-import { getDictionary } from "./dictionaries";
 
 export async function generateStaticParams() {
   return [{ lang: "en" }, { lang: "id" }];
@@ -60,7 +58,6 @@ export default async function RootLayout({
   params: Promise<{ lang: string }>;
 }>) {
   const { lang } = await params;
-  const dictionary = await getDictionary(lang as "en" | "id");
 
   return (
     <html lang={lang}>
@@ -68,10 +65,9 @@ export default async function RootLayout({
         <style suppressHydrationWarning>{splashScreenStyles}</style>
       </head>
       <body className={`antialiased`}>
-        <StructuredData dictionary={dictionary} locale={lang} />
         <div id="splash-screen">
           <Image
-            alt="PSP Logo"
+            alt="APW Logo"
             width={120}
             height={40}
             src={logo}

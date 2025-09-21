@@ -31,10 +31,26 @@ interface Dictionary {
       };
     };
     stats: {
-      projects: string;
-      satisfaction: string;
-      support: string;
-      experience: string;
+      projects: {
+        number: string;
+        label: string;
+        description: string;
+      };
+      satisfaction: {
+        number: string;
+        label: string;
+        description: string;
+      };
+      support: {
+        number: string;
+        label: string;
+        description: string;
+      };
+      experience: {
+        number: string;
+        label: string;
+        description: string;
+      };
     };
     impact: {
       title: string;
@@ -44,17 +60,13 @@ interface Dictionary {
       title: string;
       description: string;
     };
-    exploreServices: string;
+    exploreProducts: string;
     startJourney: string;
     locations: {
       mainOffice: {
         title: string;
         address: string;
         hours: string;
-      };
-      workshop: {
-        title: string;
-        address: string;
       };
     };
   };
@@ -67,33 +79,36 @@ interface AboutProps {
 const About = ({ dictionary }: AboutProps) => {
   const stats = [
     {
-      number: "13+",
-      label: dictionary.about.stats.experience,
+      number: dictionary.about.stats.experience.number,
+      label: dictionary.about.stats.experience.label,
       icon: "lucide:award",
     },
     {
-      number: "100+",
-      label: dictionary.about.stats.projects,
-      icon: "lucide:check-circle",
+      number: dictionary.about.stats.projects.number,
+      label: dictionary.about.stats.projects.label,
+      icon: "lucide:package",
     },
     {
-      number: "24/7",
-      label: dictionary.about.stats.support,
-      icon: "lucide:clock",
-    },
-    {
-      number: "100%",
-      label: dictionary.about.stats.satisfaction,
+      number: dictionary.about.stats.satisfaction.number,
+      label: dictionary.about.stats.satisfaction.label,
       icon: "lucide:heart",
+    },
+    {
+      number: dictionary.about.stats.support.number,
+      label: dictionary.about.stats.support.label,
+      icon: "lucide:headphones",
     },
   ];
 
   return (
-    <section id="about" className="py-20 bg-gray-50">
+    <section
+      id="about"
+      className="py-20 bg-gradient-to-br from-gray-50 via-white to-apw-gradient-start/5"
+    >
       <div className="container">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center px-6 py-3 rounded-lg bg-primary/10 border border-primary/20 text-primary text-sm font-bold mb-4">
+          <div className="inline-flex items-center px-6 py-3 rounded-lg bg-apw-manatee/10 border border-apw-manatee/20 text-apw-manatee text-sm font-bold mb-4">
             <IconifyIcon icon="lucide:building-2" className="w-4 h-4 mr-2" />
             {dictionary.about.badge}
           </div>
@@ -103,6 +118,126 @@ const About = ({ dictionary }: AboutProps) => {
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
             {dictionary.about.subtitle}
           </p>
+        </div>
+
+        {/* Company Description with Industrial Visual */}
+        <div className="mb-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">
+                Empowering Industries with Reliable Products
+              </h3>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                {dictionary.about.description}
+              </p>
+
+              {/* Industry Sectors */}
+              <div className="grid grid-cols-2 gap-4 mb-6">
+                <div className="flex items-center">
+                  <IconifyIcon
+                    icon="lucide:mining"
+                    className="w-5 h-5 text-primary mr-3"
+                  />
+                  <span className="text-gray-700">Mining</span>
+                </div>
+                <div className="flex items-center">
+                  <IconifyIcon
+                    icon="lucide:fuel"
+                    className="w-5 h-5 text-primary mr-3"
+                  />
+                  <span className="text-gray-700">Oil & Gas</span>
+                </div>
+                <div className="flex items-center">
+                  <IconifyIcon
+                    icon="lucide:construction"
+                    className="w-5 h-5 text-primary mr-3"
+                  />
+                  <span className="text-gray-700">Construction</span>
+                </div>
+                <div className="flex items-center">
+                  <IconifyIcon
+                    icon="lucide:ship"
+                    className="w-5 h-5 text-primary mr-3"
+                  />
+                  <span className="text-gray-700">Shipbuilding</span>
+                </div>
+                <div className="flex items-center">
+                  <IconifyIcon
+                    icon="lucide:cog"
+                    className="w-5 h-5 text-primary mr-3"
+                  />
+                  <span className="text-gray-700">Manufacturing</span>
+                </div>
+                <div className="flex items-center">
+                  <IconifyIcon
+                    icon="lucide:zap"
+                    className="w-5 h-5 text-primary mr-3"
+                  />
+                  <span className="text-gray-700">Power Generation</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative">
+              <div className="bg-white border-2 border-primary/10 rounded-2xl p-8 shadow-xl">
+                <div className="grid grid-cols-2 gap-6">
+                  {/* Warehouse Visual */}
+                  <div className="bg-gradient-to-br from-apw-manatee/10 to-apw-mid-gray/10 rounded-xl p-6 border border-apw-manatee/20">
+                    <IconifyIcon
+                      icon="lucide:warehouse"
+                      className="w-8 h-8 text-primary mb-3"
+                    />
+                    <h4 className="font-semibold text-gray-900 mb-2">
+                      Warehouse
+                    </h4>
+                    <p className="text-sm text-gray-600">
+                      Organized stock management
+                    </p>
+                  </div>
+
+                  {/* Technical Support Visual */}
+                  <div className="bg-gradient-to-br from-apw-gold-drop/10 to-apw-mid-gray/10 rounded-xl p-6 border border-apw-gold-drop/20">
+                    <IconifyIcon
+                      icon="lucide:headphones"
+                      className="w-8 h-8 text-apw-gold-drop mb-3"
+                    />
+                    <h4 className="font-semibold text-gray-900 mb-2">
+                      24/7 Support
+                    </h4>
+                    <p className="text-sm text-gray-600">
+                      Technical assistance
+                    </p>
+                  </div>
+
+                  {/* Quality Standards Visual */}
+                  <div className="bg-gradient-to-br from-primary/10 to-apw-manatee/10 rounded-xl p-6 border border-primary/20">
+                    <IconifyIcon
+                      icon="lucide:award"
+                      className="w-8 h-8 text-primary mb-3"
+                    />
+                    <h4 className="font-semibold text-gray-900 mb-2">
+                      Standards
+                    </h4>
+                    <p className="text-sm text-gray-600">API, ASME, ANSI</p>
+                  </div>
+
+                  {/* Distribution Network Visual */}
+                  <div className="bg-gradient-to-br from-apw-gray-chateau/10 to-apw-mid-gray/10 rounded-xl p-6 border border-apw-gray-chateau/20">
+                    <IconifyIcon
+                      icon="lucide:truck"
+                      className="w-8 h-8 text-apw-gray-chateau mb-3"
+                    />
+                    <h4 className="font-semibold text-gray-900 mb-2">
+                      Distribution
+                    </h4>
+                    <p className="text-sm text-gray-600">
+                      Fast delivery network
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Mission & Vision */}
@@ -132,9 +267,9 @@ const About = ({ dictionary }: AboutProps) => {
             </div>
           </div>
 
-          <div className="bg-white border-2 border-psp-gold/20 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-primary/20 rounded-2xl p-8 shadow-lg">
             <div className="flex items-center mb-6">
-              <div className="w-16 h-16 bg-psp-gold rounded-xl flex items-center justify-center mr-4">
+              <div className="w-16 h-16 bg-primary rounded-xl flex items-center justify-center mr-4">
                 <IconifyIcon icon="lucide:eye" className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900">
@@ -147,17 +282,8 @@ const About = ({ dictionary }: AboutProps) => {
           </div>
         </div>
 
-        {/* Description */}
-        <div className="mb-20">
-          <div className="bg-gray-50 rounded-2xl p-8 text-center">
-            <p className="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto">
-              {dictionary.about.description}
-            </p>
-          </div>
-        </div>
-
         {/* Stats */}
-        <div className="bg-gradient-to-r from-primary to-psp-gold rounded-2xl p-12 text-white">
+        <div className="bg-gradient-to-r from-primary to-apw-mid-gray rounded-2xl p-12 text-white mb-20">
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold mb-4">
               {dictionary.about.impact.title}
@@ -186,41 +312,39 @@ const About = ({ dictionary }: AboutProps) => {
         </div>
 
         {/* Locations */}
-        <div className="mt-20">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white border-2 border-psp-pink/20 rounded-xl p-6">
-              <div className="flex items-center mb-4">
-                <IconifyIcon
-                  icon="lucide:map-pin"
-                  className="w-6 h-6 text-primary mr-3"
-                />
-                <h4 className="text-xl font-semibold text-gray-900">
-                  {dictionary.about.locations.mainOffice.title}
-                </h4>
-              </div>
-              <p className="text-gray-600">
-                {dictionary.about.locations.mainOffice.address}
-                <br />
-                <span className="text-sm text-gray-500">
-                  {dictionary.about.locations.mainOffice.hours}
-                </span>
-              </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="bg-white border-2 border-primary/20 rounded-xl p-6">
+            <div className="flex items-center mb-4">
+              <IconifyIcon
+                icon="lucide:map-pin"
+                className="w-6 h-6 text-primary mr-3"
+              />
+              <h4 className="text-xl font-semibold text-gray-900">
+                {dictionary.about.locations.mainOffice.title}
+              </h4>
             </div>
+            <p className="text-gray-600">
+              {dictionary.about.locations.mainOffice.address}
+              <br />
+              <span className="text-sm text-gray-500">
+                {dictionary.about.locations.mainOffice.hours}
+              </span>
+            </p>
+          </div>
 
-            <div className="bg-white border-2 border-psp-orange/20 rounded-xl p-6">
-              <div className="flex items-center mb-4">
-                <IconifyIcon
-                  icon="lucide:factory"
-                  className="w-6 h-6 text-psp-orange mr-3"
-                />
-                <h4 className="text-xl font-semibold text-gray-900">
-                  {dictionary.about.locations.workshop.title}
-                </h4>
-              </div>
-              <p className="text-gray-600">
-                {dictionary.about.locations.workshop.address}
-              </p>
+          <div className="bg-white border-2 border-primary/20 rounded-xl p-6">
+            <div className="flex items-center mb-4">
+              <IconifyIcon
+                icon="lucide:factory"
+                className="w-6 h-6 text-primary mr-3"
+              />
+              <h4 className="text-xl font-semibold text-gray-900">
+                Workshop & Distribution Center
+              </h4>
             </div>
+            <p className="text-gray-600">
+              {dictionary.about.locations.mainOffice.address}
+            </p>
           </div>
         </div>
       </div>

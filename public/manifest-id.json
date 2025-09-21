@@ -1,7 +1,7 @@
 {
-  "name": "PT. Phillippe Surya Pratama - Layanan Las Industri & Perbaikan Valve",
-  "short_name": "PSP Industrial",
-  "description": "PT. Phillippe Surya Pratama menyediakan layanan las industri dan perbaikan valve yang dapat diandalkan dengan teknisi berpengalaman dan pengalaman lapangan bertahun-tahun. Mendukung sektor pertambangan, minyak & gas, manufaktur, dan pembangkit listrik.",
+  "name": "PT. Anugerah Panca Wisesa - Layanan Las Industri & Perbaikan Valve",
+  "short_name": "APW Industrial",
+  "description": "PT. Anugerah Panca Wisesa menyediakan layanan las industri dan perbaikan valve yang dapat diandalkan dengan teknisi berpengalaman dan pengalaman lapangan bertahun-tahun. Mendukung sektor pertambangan, minyak & gas, manufaktur, dan pembangkit listrik.",
   "start_url": "/id/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -30,5 +30,5 @@
   "lang": "id-ID",
   "dir": "ltr",
   "scope": "/id/",
-  "id": "psp-industrial-services-id"
+  "id": "apw-industrial-services-id"
 }

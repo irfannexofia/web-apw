@@ -29,20 +29,20 @@ export default {
 
     extend: {
       colors: {
-        primary: "#fd8706",
-        primaryDark: "#e07705",
+        primary: "#8e95a3",
+        primaryDark: "#6b7280",
         secondary: "#191A15",
         dark: "#212121",
         light: "#747474",
         black: "#000000",
         muted: "#707070",
-        // PSP Brand Colors
-        "psp-pink": "#ffcccc",
-        "psp-orange": "#fd8706",
-        "psp-gold": "#e2b500",
-        "psp-gradient-start": "#ffcccc",
-        "psp-gradient-mid": "#fd8706",
-        "psp-gradient-end": "#e2b500",
+        // APW Brand Colors (from documentation)
+        "apw-manatee": "#8e95a3",
+        "apw-gray-chateau": "#d7dadf",
+        "apw-mid-gray": "#6b7280",
+        "apw-gold-drop": "#e2b500",
+        "apw-gradient-start": "#d7dadf",
+        "apw-gradient-end": "#8e95a3",
       },
 
       keyframes: {

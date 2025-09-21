@@ -5,54 +5,74 @@
     "services": "Services",
     "products": "Products",
     "certificates": "Certificates",
+    "gallery": "Gallery",
     "clients": "Clients",
     "contact": "Contact"
   },
   "hero": {
-    "badge": "Industrial Excellence",
-    "title": "Professional Welding & Valve Repair Services",
-    "subtitle": "PT. Phillippe Surya Pratama delivers reliable industrial solutions with skilled technicians and years of field experience. Supporting mining, oil & gas, manufacturing, and power generation sectors.",
-    "cta1": "Our Services",
-    "cta2": "View Products",
+    "badge": "Trusted Industrial Distributor",
+    "title": "Official Distributor of Welding Consumables, Welding Machines, Wear Plate & Industrial Valves",
+    "subtitle": "Trusted industrial solutions for welding, cutting, wear protection, and valve systems across manufacturing, mining, oil & gas, and construction sectors.",
+    "tagline": "Precision Welding, Reliable Machines, Durable Protection, Trusted Valves",
+    "cta1": "View Products",
+    "cta2": "Download Catalog",
+    "cta3": "Contact Us",
     "description": "We provide:",
-    "services": "Comprehensive welding services and valve repair.",
-    "products": "High-quality welding alloys and equipment for professional use.",
+    "services": "Complete solutions for welding, cutting, wear protection, and valve systems.",
+    "products": "High-quality industrial products from trusted international brands.",
     "exploreServices": "Explore Services",
+    "exploreProducts": "Explore Products",
     "getStarted": "Get Quote"
   },
   "about": {
-    "badge": "About PSP",
-    "title": "Your Trusted Industrial Partner",
-    "subtitle": "PT. Phillippe Surya Pratama is a service-focused company specializing in industrial welding and valve repair with a commitment to excellence and reliability.",
-    "description": "With a team of skilled technicians and years of field experience, we deliver reliable solutions to support the operational needs of various industrial sectors.",
+    "badge": "About APW",
+    "title": "Your Trusted Industrial Distribution Partner",
+    "subtitle": "PT. Anugerah Panca Wisesa (APW) is an industrial distribution company specializing in welding consumables, modern inverter welding machines, wear plates, and industrial valves from globally trusted brands.",
+    "description": "With a commitment to excellence and international quality standards, APW serves various industries including mining, oil & gas, construction, manufacturing, and power generation.",
     "vision": {
       "title": "Vision",
-      "description": "To become the leading provider of industrial welding and valve repair services, recognized for our technical expertise, quality workmanship, and commitment to customer satisfaction."
+      "description": "To become a trusted industrial product distributor providing superior and sustainable solutions for all manufacturing & energy sectors in Indonesia."
     },
     "mission": {
       "title": "Mission",
-      "items": "Deliver Excellence: Provide high-quality welding and valve repair services that meet international standards.\nEnsure Reliability: Maintain consistent performance and reliability in all our industrial solutions.\nSupport Industry: Contribute to the success of mining, oil & gas, manufacturing, and power generation sectors through our specialized services."
+      "items": "We are committed to providing international quality products at competitive prices, offering technical consultation services for every client's needs, maintaining supply chain continuity with stock availability and fast distribution, and building trust as a long-term partner for heavy industries."
     },
     "values": {
-      "title": "Why Choose PSP?",
+      "title": "Our Values",
       "expertise": {
         "title": "Technical Expertise",
-        "description": "Our team consists of certified technicians with extensive experience in industrial welding and valve repair applications."
+        "description": "Deep knowledge of industrial products and applications to provide the best solutions."
       },
       "quality": {
         "title": "Quality Assurance",
-        "description": "We maintain strict quality standards and use premium materials to ensure long-lasting results for all our services."
+        "description": "All products meet international standards (API, ASME, ANSI, OEM) with comprehensive quality control."
       },
       "reliability": {
-        "title": "Reliable Service",
-        "description": "We understand the critical nature of industrial operations and provide dependable solutions that minimize downtime."
+        "title": "Long-term Partnership",
+        "description": "Transparent communication and fast response to maintain long-term client relationships."
       }
     },
     "stats": {
-      "projects": "Projects Completed",
-      "satisfaction": "Client Satisfaction",
-      "support": "Support Available",
-      "experience": "Years Experience"
+      "projects": {
+        "number": "500+",
+        "label": "Products Distributed",
+        "description": "Industrial products"
+      },
+      "satisfaction": {
+        "number": "98%",
+        "label": "Client Satisfaction",
+        "description": "Customer satisfaction rate"
+      },
+      "support": {
+        "number": "24/7",
+        "label": "Technical Support",
+        "description": "Professional support"
+      },
+      "experience": {
+        "number": "15+",
+        "label": "Years Experience",
+        "description": "Industry expertise"
+      }
     },
     "impact": {
       "title": "Our Impact",
@@ -60,306 +80,247 @@
     },
     "philosophy": {
       "title": "Industrial Excellence",
-      "description": "We believe that proper industrial maintenance and repair services are essential for operational efficiency and safety. Our commitment to excellence ensures that every project we undertake meets the highest standards of quality and reliability."
+      "description": "We believe that proper industrial products and technical support are essential for operational efficiency and safety. Our commitment to excellence ensures that every product we supply meets the highest standards of quality and reliability."
     },
     "exploreServices": "Explore Our Services",
-    "startJourney": "Start Your Project",
+    "exploreProducts": "Explore Our Products",
+    "startJourney": "Start Your Partnership",
     "locations": {
       "mainOffice": {
         "title": "Main Office",
-        "address": "Ruko Villa Taman Bandara Blok N8/15, Dadap, Kosambi, Tangerang.",
-        "hours": "(Mon–Fri, 08.00–16.00)"
-      },
-      "workshop": {
-        "title": "Workshop",
-        "address": "Pergudangan 99 Blok Q/33, Kosambi, Tangerang."
+        "address": "Jl. Raya Prancis, Ruko Villa Taman Bandara Blok N8/15, Kel. Dadap, Kec. Kosambi, Tangerang 15211 – Indonesia",
+        "hours": "(Mon–Fri, 08.00–17.00)"
       }
     }
   },
-  "services": {
-    "title": "Our Services",
-    "subtitle": "Two Premier Services That Form the Foundation of PSP's Reputation",
-    "description": "We offer two premier services that form the foundation of PSP's reputation: Welding Service and Valve Repair Service.",
-    "welding": {
-      "title": "1) Welding Service",
-      "subtitle": "Expert Industrial Welding for Equipment Repair & Fabrication",
-      "description": "Handling crack repair, reinforcement, build-up worn parts, and custom fabrication.",
-      "methods": "Methods",
-      "materials": "Materials",
-      "applications": "Applications",
-      "industries": "Industries",
-      "methodsList": [
-        "SMAW",
-        "GTAW (TIG)",
-        "FCAW",
-        "GMAW (MIG)",
-        "Hardfacing & Overlay"
-      ],
-      "materialsList": [
-        "Carbon steel",
-        "Stainless",
-        "Alloy",
-        "Cast iron",
-        "Non-ferrous"
-      ],
-      "applicationsList": [
-        "Tank & vessel repair",
-        "Structural reinforcement",
-        "Custom metal fabrication"
-      ],
-      "industriesList": [
-        "Mining",
-        "Oil & Gas",
-        "Power",
-        "Cement",
-        "Steel",
-        "Petrochemical",
-        "Manufacturing"
-      ]
-    },
-    "valve": {
-      "title": "2) Valve Repair Service",
-      "subtitle": "Comprehensive Valve Repair, Reconditioning & Testing",
-      "description": "Service stages: inspection & diagnostic, disassembly & cleaning, component repair or replacement, lapping & machining, reassembly & calibration, hydrostatic/pneumatic pressure testing, ending with final quality check & reporting.",
-      "process": "Service Process",
-      "types": "Valve Types",
-      "standards": "Standards",
-      "industries": "Industries",
-      "processList": [
-        "Inspection & Diagnostic",
-        "Disassembly & Cleaning",
-        "Component Repair or Replacement",
-        "Lapping & Machining",
-        "Reassembly & Calibration",
-        "Hydrostatic/Pneumatic Testing",
-        "Final Quality Check & Reporting"
-      ],
-      "typesList": [
-        "Gate",
-        "Globe",
-        "Ball",
-        "Check",
-        "Butterfly",
-        "Relief",
-        "Control"
-      ],
-      "standardsList": ["API", "ASME", "ANSI", "OEM"],
-      "industriesList": [
-        "Oil & Gas",
-        "Petrochemical",
-        "Power Plant",
-        "Water Treatment",
-        "Pulp & Paper",
-        "Chemical",
-        "Food & Beverage"
-      ]
-    },
-    "cta": {
-      "title": "Ready to Reduce Downtime & Increase Equipment Reliability?",
-      "description": "Don't wait until production problems hinder profit. Contact us now for fast, safe, and internationally standardized solutions.",
-      "contact": "Contact Us",
-      "viewProducts": "View Products"
-    },
-    "getStarted": "Get Started",
-    "technologiesUsed": "Technologies Used",
-    "keyFeatures": "Key Features"
-  },
   "products": {
-    "title": "Products (via APW)",
-    "subtitle": "Product Supply through PT. Anugerah Panca Wisesa (APW)",
-    "description": "As a supporter of smooth operations, PSP collaborates with APW to provide industrial products from trusted brands.",
+    "title": "Our Main Products",
+    "subtitle": "PT. Anugerah Panca Wisesa (APW) offers superior product lines that are primary solutions for welding, cutting, wear protection, and industrial valve systems.",
+    "description": "We distribute four premier product lines that form the foundation of APW's distribution excellence: STARLET Welding Consumables, StarArc Welding Machines, AlloyStar Wear Plate, and TSV Industrial Valves.",
     "starlet": {
-      "name": "Starlet",
-      "type": "Welding electrodes & wires",
-      "description": "Stable arc, neat bead, easy slag removal. Suitable for general fabrication & routine repairs.",
+      "name": "STARLET® Welding Consumables",
+      "type": "Welding Consumables",
+      "description": "High-quality consumables for various welding processes including SMAW, GMAW/MAG, FCAW, and GTAW/TIG",
       "features": [
-        "Stable arc",
-        "Neat bead",
-        "Easy slag removal",
-        "Suitable for general fabrication",
-        "Routine repairs"
+        "Stable arc & easy ignition",
+        "Easy slag removal, neat weld results",
+        "Optimal deposition rate with high efficiency",
+        "Controlled chemical composition"
+      ]
+    },
+    "stararc": {
+      "name": "StarArc® Welding Machines",
+      "type": "Welding Machines",
+      "description": "Modern inverter welding machines with precise current & voltage control, supporting various processes",
+      "features": [
+        "Hot start, anti-stick, thermal protection",
+        "High duty cycle, stable for heavy operations",
+        "Modern digital panel with precise settings",
+        "Superior energy efficiency"
+      ]
+    },
+    "allostar": {
+      "name": "AlloyStar® Wear Plate",
+      "type": "Wear Plate",
+      "description": "Wear plate with hardfacing and cladding layers providing maximum protection against wear, friction, and corrosion",
+      "features": [
+        "Wear-resistant in extreme conditions",
+        "Increases component lifespan",
+        "Easy to apply on buckets, chutes, crushers, conveyors",
+        "Reduces long-term maintenance costs"
+      ]
+    },
+    "tsv": {
+      "name": "TSV® Industrial Valves",
+      "type": "Industrial Valves",
+      "description": "High-quality industrial valves for regulating fluid flow in various applications",
+      "features": [
+        "Pressure & corrosion resistant materials",
+        "Assembly process according to API, ASME, ANSI standards",
+        "Tested with hydrostatic & pneumatic testing",
+        "Long component cycle life"
       ]
     },
     "geka": {
-      "name": "GEKA",
-      "type": "Valves, welding electrodes & machines",
-      "description": "Competitive & reliable for both project-based and daily needs.",
+      "name": "GEKA Welding Consumables",
+      "type": "Welding Consumables",
+      "description": "High-quality welding consumables for various applications",
       "features": [
-        "Competitive & reliable",
-        "Project-based solutions",
-        "Daily needs",
-        "Valves & welding equipment",
-        "Quality assurance"
+        "Premium Quality",
+        "Reliable Performance",
+        "Wide Range",
+        "Industry Standards"
       ]
     },
     "weldingAlloys": {
       "name": "Welding Alloys",
-      "type": "Hardfacing & cladding",
-      "description": "Wear & corrosion resistant for heavy-duty applications.",
+      "type": "Specialty Alloys",
+      "description": "Specialized welding alloys for specific applications",
       "features": [
-        "Wear resistant",
-        "Anti corrosion",
-        "Heavy-duty applications",
-        "Hardfacing solutions",
-        "Cladding technology"
+        "Specialized Alloys",
+        "High Performance",
+        "Custom Solutions",
+        "Technical Support"
       ]
     },
-    "features": "Features",
+    "features": "Key Features",
     "inquireNow": "Inquire Now",
+    "viewDetails": "View Details",
+    "backToProducts": "Back to Products",
+    "backToHome": "Back to Home",
+    "technicalSpecs": "Technical Specifications",
+    "applications": "Applications",
+    "productVariants": "Product Variants",
+    "standards": "Standards",
+    "quality": "Quality",
+    "support": "Support",
+    "delivery": "Delivery",
+    "getQuote": "Get Quote",
     "howToPurchase": {
       "title": "How to Purchase",
-      "description": "All inquiries are directed to APW; PSP team helps with technical recommendations to ensure product specifications meet requirements.",
-      "getRecommendation": "Get Technical Recommendation",
-      "callDirectly": "Call APW Directly"
+      "description": "Easy steps to get our products",
+      "getRecommendation": "Get Product Recommendation",
+      "callDirectly": "Call Directly"
     },
     "gallery": {
       "title": "Product Gallery",
-      "description": "Visual collage of brands & products distributed through APW. Shows variety of consumables (electrodes, wires, rods), valves, and welding machines.",
+      "description": "Visual showcase of our industrial products",
       "moreProducts": "More Products"
-    }
+    },
+    "cta": {
+      "title": "Ready to Optimize Your Industrial Operations with Trusted Products?",
+      "description": "Don't wait until production problems hinder efficiency. Contact us now for fast, reliable, and internationally standardized product solutions.",
+      "contact": "Contact Us",
+      "viewGallery": "View Gallery"
+    },
+    "getStarted": "Get Started",
+    "downloadCatalog": "Download Catalog"
   },
-  "certificates": {
-    "title": "Certifications",
-    "subtitle": "Our commitment to quality and international standards",
-    "description": "PSP has official certifications that prove our commitment to quality, safety, and international industry standards.",
-    "iso9001": {
-      "title": "ISO 9001:2015",
-      "description": "Quality Management System certification ensuring consistent quality in all our services."
+  "gallery": {
+    "title": "Product Gallery",
+    "subtitle": "Visual Showcase of APW's Industrial Product Range",
+    "description": "Explore our comprehensive range of industrial products through our visual gallery. See the variety of consumables (electrodes, wires, rods), welding machines, wear plates, and industrial valves we distribute.",
+    "starlet": {
+      "title": "STARLET Welding Consumables",
+      "description": "High-quality welding electrodes, wires, and filler rods for various industrial applications."
     },
-    "iso45001": {
-      "title": "ISO 45001:2018",
-      "description": "Occupational Health and Safety Management System certification for workplace safety."
+    "stararc": {
+      "title": "StarArc Welding Machines",
+      "description": "Modern inverter welding machines for professional and industrial use."
     },
-    "sbu": {
-      "title": "SBUJK Certificate",
-      "description": "Construction Business Entity Certificate for professional construction services."
+    "allostar": {
+      "title": "AlloyStar Wear Plate",
+      "description": "Durable wear plates for heavy-duty industrial applications."
     },
-    "ss": {
-      "title": "SS Certificate",
-      "description": "Safety and Security certification for industrial operations."
+    "tsv": {
+      "title": "TSV Industrial Valves",
+      "description": "High-quality industrial valves for various fluid control applications."
     },
-    "viewCertificate": "View Certificate",
-    "downloadCertificate": "Download Certificate",
-    "whyImportant": {
-      "title": "Why Certifications Matter?",
-      "description": "International certifications ensure consistent standards of quality, safety, and professionalism in every project we undertake.",
-      "quality": {
-        "title": "Guaranteed Quality",
-        "description": "ISO 9001 ensures consistent and sustainable work processes"
-      },
-      "safety": {
-        "title": "Safety Priority",
-        "description": "ISO 45001 guarantees a safe and healthy work environment"
-      },
-      "competence": {
-        "title": "Verified Competence",
-        "description": "SBU JK and special certificates prove our technical expertise"
-      }
+    "integrated": {
+      "title": "Integrated Solutions",
+      "description": "Complete industrial solutions combining our product range."
     },
-    "modal": {
-      "viewPdf": "View PDF",
-      "downloadPdf": "Download PDF",
-      "back": "Back",
-      "description": "Official certificate available in PDF format. Click the button below to view or download the certificate."
-    }
+    "moreProducts": "More Products",
+    "downloadCatalog": "Download Catalog"
   },
   "clients": {
-    "title": "Our Clients",
-    "subtitle": "Our Clients Who Trust PSP",
-    "description": "Displaying a concise list of clients with mini-project descriptions for context. Use logo/grayscale grid for visual consistency.",
+    "title": "Trusted by Indonesia's Largest Industries",
+    "subtitle": "APW's products and services have been utilized by various leading companies in the mining, oil & gas, shipbuilding, steel manufacturing, construction, and power generation sectors.",
+    "description": "Since its establishment, APW has been trusted by national and multinational companies. Our product and service support helps maintain the smooth operation of heavy industries and ensures international quality standards.",
     "clientList": {
       "wilmar": {
-        "name": "PT. Wilmar Nabati",
+        "name": "Wilmar Group",
         "sector": "Agribusiness",
-        "project": "Ducting fabrication & installation",
-        "description": "Professional ducting fabrication and installation services for industrial facilities."
+        "project": "Industrial Maintenance",
+        "description": "Welding consumables for industrial equipment"
       },
       "petrokimia": {
-        "name": "PT. Petrokimia Gresik",
+        "name": "Petrokimia Gresik",
         "sector": "Petrochemical",
-        "project": "Scrubber Venturi Tank work",
-        "description": "Specialized welding and repair work on critical petrochemical equipment."
+        "project": "Plant Operations",
+        "description": "Industrial valves and consumables"
       },
       "pjb": {
-        "name": "PT. PJB Jepara",
+        "name": "PJB Services",
         "sector": "Power Generation",
-        "project": "Trass Silo maintenance",
-        "description": "Ongoing maintenance services for power plant silo systems to ensure operational continuity."
+        "project": "Power Plant Maintenance",
+        "description": "Specialized industrial equipment"
       }
     },
     "project": "Project",
     "impact": {
-      "title": "Our Client Impact",
-      "description": "Numbers that prove our commitment to excellence",
+      "title": "Our Impact",
+      "description": "Numbers that demonstrate our commitment to industrial excellence",
       "stats": {
         "projects": {
-          "number": "100+",
-          "label": "Projects Completed",
-          "description": "Successfully delivered industrial projects across various sectors"
+          "number": "500+",
+          "label": "Products Distributed",
+          "description": "Wide range of industrial products distributed"
         },
-        "clients": {
-          "number": "50+",
-          "label": "Happy Clients",
-          "description": "Long-term partnerships with satisfied industrial clients"
+        "satisfaction": {
+          "number": "98%",
+          "label": "Client Satisfaction",
+          "description": "Customer satisfaction rate"
         },
         "experience": {
-          "number": "13+",
+          "number": "10+",
           "label": "Years Experience",
-          "description": "Over a decade of expertise in industrial welding and valve repair"
+          "description": "Decades of experience in industrial distribution"
         },
         "support": {
           "number": "24/7",
-          "label": "Support Available",
-          "description": "Round-the-clock technical support for critical operations"
+          "label": "Technical Support",
+          "description": "Round-the-clock technical assistance"
         }
       }
     },
     "testimonials": {
       "title": "Client Testimonials",
-      "description": "What clients say about PSP services",
+      "description": "What our clients say about APW's products and services",
       "wilmar": {
-        "quote": "PSP provides very professional welding services. Their team is very experienced and the work results meet international standards.",
-        "author": "PT. Wilmar Nabati"
+        "quote": "APW's welding consumables have significantly improved our production efficiency.",
+        "author": "Wilmar Group"
       },
       "petrokimia": {
-        "quote": "PSP's valve repair service is very satisfying. They were able to complete repairs quickly and with high quality.",
-        "author": "PT. Petrokimia Gresik"
+        "quote": "Excellent technical support and reliable product quality from APW.",
+        "author": "Petrokimia Gresik"
       },
       "pjb": {
-        "quote": "The maintenance service provided by PSP is very reliable. They ensure our operations run smoothly without significant downtime.",
-        "author": "PT. PJB Jepara"
+        "quote": "APW's industrial valves meet our strict quality requirements.",
+        "author": "PJB Services"
       }
     },
     "cta": {
-      "title": "Join Our Clients",
-      "description": "Get the best welding and valve repair services for your industry. PSP team is ready to be your trusted partner in maintaining your operational reliability.",
-      "contact": "Contact Us Now",
-      "viewServices": "View Our Services"
+      "title": "Partner with APW for Your Industrial Needs",
+      "description": "Join our growing list of satisfied clients who rely on APW for high-quality industrial products and expert technical support.",
+      "contact": "Contact Us Today",
+      "viewProducts": "View Products",
+      "viewServices": "View Services"
     }
   },
   "contact": {
-    "title": "Contact",
-    "subtitle": "Contact Us for the Best Solutions",
-    "description": "We believe that easy communication is the beginning of successful cooperation. Our team will contact you within 1-2 business days.",
+    "title": "Contact Us",
+    "subtitle": "The APW team is ready to assist with your industrial product needs – from technical consultation to product ordering.",
+    "description": "Get in touch with our team for technical consultation and product inquiries.",
     "map": {
       "title": "Our Location",
-      "description": "Find us easily with our interactive map",
-      "companyName": "PT. Phillippe Surya Pratama",
-      "companyTagline": "Industrial Welding & Valve Repair",
-      "address": "Ruko Villa Taman Bandara Blok N8/15",
-      "area": "Dadap, Kosambi, Tangerang",
-      "hours": "Mon-Fri, 08:00-16:00"
+      "description": "Visit our main office in Tangerang",
+      "companyName": "PT. ANUGERAH PANCA WISESA",
+      "companyTagline": "Industrial Product Distribution",
+      "address": "Jl. Raya Prancis, Ruko Villa Taman Bandara Blok N8/15",
+      "area": "Kel. Dadap, Kec. Kosambi, Tangerang 15211 – Indonesia",
+      "hours": "Mon–Fri, 08.00 – 17.00 WIB"
     },
     "address": {
-      "title": "Address",
+      "title": "Office Address",
       "mainOffice": {
         "title": "Main Office",
         "address": "Jl. Raya Prancis, Ruko Villa Taman Bandara Blok N8/15, Kel. Dadap, Kec. Kosambi, Tangerang 15211 – Indonesia",
-        "hours": "(Mon–Fri, 08.00–16.00)"
+        "hours": "(Mon–Fri, 08.00–17.00)"
       },
       "workshop": {
         "title": "Workshop",
-        "address": "Pergudangan 99 Blok Q/33, Kosambi, Tangerang"
+        "address": "Jl. Raya Prancis, Ruko Villa Taman Bandara Blok N8/15, Kel. Dadap, Kec. Kosambi, Tangerang 15211 – Indonesia"
       }
     },
     "phone": {
@@ -369,16 +330,16 @@
         "number": "+62-21-22556661 (ext. Marketing)"
       },
       "direct": {
-        "label": "Direct",
-        "number": "+62-21-92112111"
+        "label": "Direct Line",
+        "number": "+62-21-22556661"
       },
       "purchasing": {
-        "label": "Purchasing Dept.",
+        "label": "Purchasing",
         "number": "+62-21-22556662 (ext. Purchasing Dept.)"
       },
       "financial": {
-        "label": "Financial Dept.",
-        "number": "+62-21-22556663 (ext. Financial Dept.)"
+        "label": "Finance",
+        "number": "+62-21-22556663 (ext. Finance Dept.)"
       },
       "fax": {
         "label": "Fax",
@@ -389,126 +350,240 @@
       "title": "Email",
       "general": {
         "label": "General Inquiry",
-        "address": "psp_yanto@yahoo.com"
+        "address": "info@anugerahpancawisesa.com"
       },
       "product": {
         "label": "Product Inquiry",
-        "address": "psp_starlet@yahoo.com"
+        "address": "product@anugerahpancawisesa.com"
       },
       "technical": {
         "label": "Technical Support",
-        "address": "okon.suprianto@psp-indo.co.id"
+        "address": "technical@anugerahpancawisesa.com"
       }
     },
+    "operatingHours": "Operating Hours: Monday – Friday, 08.00 – 17.00 WIB",
     "form": {
-      "title": "Quick Form",
+      "title": "Quick Contact Form",
       "successMessage": "Thank you! We will contact you soon.",
       "errorMessage": "An error occurred. Please try again.",
       "fields": {
         "name": {
-          "label": "Full Name *",
-          "placeholder": "Your full name"
+          "label": "Full Name",
+          "placeholder": "Enter your full name"
         },
         "email": {
-          "label": "Email *",
-          "placeholder": "your.email@example.com"
+          "label": "Email",
+          "placeholder": "Enter your email address"
         },
         "phone": {
           "label": "Phone Number",
-          "placeholder": "+62-xxx-xxxx-xxxx"
+          "placeholder": "e.g., +6281234567890"
         },
         "company": {
           "label": "Company Name",
-          "placeholder": "Your company name"
+          "placeholder": "Enter your company name"
         },
         "service": {
-          "label": "Select Service",
-          "placeholder": "Select service",
+          "label": "Product/Service Choice",
+          "placeholder": "Select product or service",
           "options": {
-            "welding": "Welding Service",
-            "valve": "Valve Repair Service",
-            "products": "Products via APW",
-            "consultation": "Consultation"
+            "welding": "Welding Services",
+            "valve": "Valve Services",
+            "products": "Industrial Products",
+            "consultation": "Technical Consultation"
           }
         },
         "message": {
-          "label": "Message *",
-          "placeholder": "Tell us about your needs..."
+          "label": "Message / Quotation Request",
+          "placeholder": "Enter your message or quotation request"
         }
       },
       "submit": {
         "sending": "Sending...",
-        "send": "Send Message"
+        "send": "Send Request"
       },
-      "whatsapp": "WhatsApp",
-      "note": "We usually respond within 24 hours. For urgent questions, please contact us directly via WhatsApp or phone."
+      "whatsapp": "WhatsApp Chat",
+      "note": "Messages will be replied to within 1–2 business days by the APW team."
+    },
+    "map_title": "Our Location",
+    "whatsapp_chat": "WhatsApp Chat",
+    "linkedin_page": "LinkedIn Company Page",
+    "cta_text": "For technical inquiries, product consultation, or quotation requests, please reach us through the contact details below. Our team is ready to provide the best solutions tailored to your industrial needs.",
+    "cta": {
+      "title": "Ready to Start Your Industrial Project?",
+      "description": "Contact our team today for technical consultation and product recommendations.",
+      "learnMore": "Learn More",
+      "contactUs": "Contact Us Now"
+    }
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Our Industrial Services",
+    "description": "APW provides comprehensive industrial services to support your operations",
+    "welding": {
+      "title": "Welding Services",
+      "subtitle": "Professional welding solutions",
+      "description": "Expert welding services for various industrial applications",
+      "methods": "Welding Methods",
+      "materials": "Materials",
+      "applications": "Applications",
+      "industries": "Industries",
+      "methodsList": ["SMAW", "GMAW/MAG", "GTAW/TIG", "FCAW"],
+      "materialsList": [
+        "Carbon Steel",
+        "Stainless Steel",
+        "Aluminum",
+        "Alloy Steel"
+      ],
+      "applicationsList": [
+        "Structural Welding",
+        "Pipe Welding",
+        "Repair Work",
+        "Fabrication"
+      ],
+      "industriesList": ["Manufacturing", "Oil & Gas", "Construction", "Mining"]
+    },
+    "valve": {
+      "title": "Valve Services",
+      "subtitle": "Valve installation and maintenance",
+      "description": "Complete valve services including installation, repair, and maintenance",
+      "process": "Process",
+      "types": "Valve Types",
+      "standards": "Standards",
+      "industries": "Industries",
+      "processList": ["Installation", "Repair", "Maintenance", "Testing"],
+      "typesList": ["Gate", "Globe", "Ball", "Check", "Butterfly"],
+      "standardsList": ["API", "ASME", "ANSI", "ISO"],
+      "industriesList": [
+        "Oil & Gas",
+        "Power Plant",
+        "Water Treatment",
+        "Petrochemical"
+      ]
     },
     "cta": {
-      "title": "Ready to Reduce Downtime & Increase Equipment Reliability?",
-      "description": "Don't wait until production problems hinder profit. Contact us now for fast, safe, and internationally standardized solutions.",
-      "learnMore": "Learn More",
-      "contactUs": "Contact Us"
+      "title": "Need Professional Services?",
+      "description": "Contact us for expert industrial services tailored to your needs",
+      "contact": "Contact Us",
+      "viewProducts": "View Products",
+      "quote": "Get Quote"
+    }
+  },
+  "certificates": {
+    "title": "Certificates",
+    "subtitle": "Our Certifications",
+    "description": "APW maintains various certifications ensuring quality and compliance",
+    "iso9001": {
+      "title": "ISO 9001:2015",
+      "description": "Quality Management System Certification"
+    },
+    "iso45001": {
+      "title": "ISO 45001:2018",
+      "description": "Occupational Health and Safety Management System"
+    },
+    "sbu": {
+      "title": "SBU Certification",
+      "description": "Strategic Business Unit Certification"
+    },
+    "ss": {
+      "title": "SS Standards",
+      "description": "Safety and Security Standards Compliance"
+    },
+    "viewCertificate": "View Certificate",
+    "downloadCertificate": "Download Certificate",
+    "whyImportant": {
+      "title": "Why Certifications Matter",
+      "description": "Our certifications ensure quality and compliance",
+      "quality": {
+        "title": "Quality Assurance",
+        "description": "Ensuring consistent quality standards"
+      },
+      "safety": {
+        "title": "Safety Standards",
+        "description": "Meeting safety and security requirements"
+      },
+      "competence": {
+        "title": "Professional Competence",
+        "description": "Demonstrating expertise and capability"
+      }
+    },
+    "modal": {
+      "title": "Certificate Details",
+      "close": "Close",
+      "viewPdf": "View PDF",
+      "downloadPdf": "Download PDF",
+      "back": "Back",
+      "description": "Certificate details and information"
     }
   },
   "footer": {
     "company": {
-      "name": "PT. PHILLIPPE SURYA PRATAMA",
-      "tagline": "Industrial Welding & Valve Services",
-      "description": "Specialist in Industrial Welding and Valve Repair Service. Trusted welding & valve repair services for heavy industries – enduring durability, safety, and minimal downtime.",
-      "address": "Ruko Villa Taman Bandara Blok N8/15, Dadap, Kosambi, Tangerang",
-      "phone": "+62-21-22556661 (Marketing)",
-      "email": "psp_yanto@yahoo.com"
+      "name": "PT. ANUGERAH PANCA WISESA",
+      "tagline": "Industrial Product Distribution",
+      "description": "Specialist in Industrial Product Distribution. Trusted distributor of welding consumables, welding machines, wear plates, and industrial valves for heavy industries – enduring quality, reliability, and minimal downtime.",
+      "address": "Jl. Raya Prancis, Ruko Villa Taman Bandara Blok N8/15, Dadap, Kosambi, Tangerang",
+      "phone": "+62-21-22556661",
+      "email": "info@anugerahpancawisesa.com"
+    },
+    "products": {
+      "title": "Products",
+      "starlet": "STARLET® Welding Consumables",
+      "stararc": "StarArc® Welding Machines",
+      "allostar": "AlloyStar® Wear Plate",
+      "tsv": "TSV® Industrial Valves"
     },
     "services": {
       "title": "Services",
-      "welding": "Welding Service",
-      "valve": "Valve Repair Service",
-      "products": "Products via APW",
+      "welding": "Welding Services",
+      "valve": "Valve Services",
+      "products": "Industrial Products",
       "consultation": "Technical Consultation"
     },
     "quickLinks": {
       "title": "Quick Links",
       "about": "About Us",
-      "clients": "Our Clients",
-      "contact": "Contact",
+      "gallery": "Product Gallery",
+      "clients": "Clients",
+      "contact": "Contact Us",
       "products": "Products"
     },
     "cta": {
-      "title": "Ready to Reduce Downtime & Increase Equipment Reliability?",
-      "description": "Don't wait until production problems hinder profit. Contact us now for fast, safe, and internationally standardized solutions.",
+      "title": "Optimize Your Industrial Processes with Trusted APW Products.",
+      "description": "Contact our team today for technical recommendations & the best offers.",
       "contactUs": "Contact Us",
-      "callNow": "Call Now"
+      "callNow": "Download Catalog"
     },
     "copyright": {
-      "text": "PT. Phillippe Surya Pratama. All rights reserved.",
-      "experience": "Experienced since 2010",
-      "specialty": "Specialist in welding & valve repair"
+      "text": "© 2024 PT. Anugerah Panca Wisesa. All rights reserved.",
+      "experience": "Trusted Industrial Solutions",
+      "specialty": "Welding, Machines, Wear Plate & Valves"
     }
   },
   "errors": {
     "404": {
       "title": "Page Not Found",
-      "subtitle": "404 Error",
-      "description": "The page you are looking for doesn't exist or has been moved.",
-      "message": "We're sorry, but the page you requested could not be found. It may have been moved, deleted, or the URL might be incorrect.",
-      "suggestions": "Here are some suggestions:",
-      "suggestion1": "Check the URL for typos",
-      "suggestion2": "Go back to the previous page",
-      "suggestion3": "Visit our homepage",
-      "suggestion4": "Contact us for assistance",
+      "subtitle": "The page you are looking for does not exist.",
+      "description": "The page you are looking for does not exist.",
+      "message": "Sorry, we couldn't find the page you're looking for.",
+      "suggestions": "Here are some helpful links:",
+      "suggestion1": "Go to Home Page",
+      "suggestion2": "Browse Products",
+      "suggestion3": "Contact Support",
+      "suggestion4": "View Gallery",
       "backHome": "Back to Home",
-      "contactUs": "Contact Us"
+      "contactUs": "Contact Us",
+      "tryAgain": "Try Again"
     },
     "500": {
-      "title": "Internal Server Error",
-      "subtitle": "500 Error",
-      "description": "Something went wrong on our end. We're working to fix it.",
-      "message": "We apologize for the inconvenience. Our technical team has been notified and is working to resolve this issue.",
-      "suggestions": "In the meantime, you can:",
-      "suggestion1": "Try refreshing the page",
-      "suggestion2": "Go back to the previous page",
-      "suggestion3": "Visit our homepage",
-      "suggestion4": "Contact us if the problem persists",
+      "title": "Server Error",
+      "subtitle": "Something went wrong on our end.",
+      "description": "Something went wrong on our end.",
+      "message": "We're experiencing technical difficulties. Please try again later.",
+      "suggestions": "Here are some helpful links:",
+      "suggestion1": "Go to Home Page",
+      "suggestion2": "Browse Products",
+      "suggestion3": "Contact Support",
+      "suggestion4": "View Gallery",
       "backHome": "Back to Home",
       "contactUs": "Contact Us",
       "tryAgain": "Try Again"

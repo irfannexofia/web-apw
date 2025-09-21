@@ -1,6 +1,6 @@
 {
   "navigation": {
-    "companyName": "PT. PHILLIPPE SURYA PRATAMA",
+    "companyName": "PT. ANUGERAH PANCA WISESA",
     "tagline": "Industrial Welding & Valve Services",
     "home": "Home",
     "about": "About",
@@ -24,10 +24,10 @@
     }
   },
   "about": {
-    "badge": "About PSP",
+    "badge": "About APW",
     "title": "Excellence in Industrial Services",
     "subtitle": "With over a decade of experience, we have established ourselves as a trusted partner in industrial welding and valve repair services.",
-    "description": "PT. Phillippe Surya Pratama has been serving heavy industries since 2010, providing reliable welding and valve repair solutions that meet international standards.",
+    "description": "PT. Anugerah Panca Wisesa has been serving heavy industries since 2010, providing reliable welding and valve repair solutions that meet international standards.",
     "values": {
       "quality": {
         "title": "Quality Excellence",
@@ -182,7 +182,7 @@
     "info": {
       "address": "Ruko Villa Taman Bandara Blok N8/15, Dadap, Kosambi, Tangerang",
       "phone": "+62-21-22556661 (Marketing)",
-      "email": "psp_yanto@yahoo.com",
+      "email": "info@anugerahpancawisesa.com",
       "hours": "Mon-Fri: 8:00 AM - 5:00 PM"
     }
   },
@@ -208,7 +208,7 @@
       "contactUs": "Contact Us",
       "callNow": "Call Now"
     },
-    "copyright": "PT. PHILLIPPE SURYA PRATAMA. All rights reserved.",
+    "copyright": "PT. ANUGERAH PANCA WISESA. All rights reserved.",
     "tagline": {
       "left": "Trusted since 2010",
       "right": "Specialist welding & valve repair"

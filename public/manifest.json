@@ -1,34 +1,38 @@
 {
-  "name": "PT. Phillippe Surya Pratama - Industrial Welding & Valve Repair Services",
-  "short_name": "PSP Industrial",
-  "description": "PT. Phillippe Surya Pratama delivers reliable industrial welding and valve repair services with skilled technicians and years of field experience. Supporting mining, oil & gas, manufacturing, and power generation sectors.",
+  "name": "PT. Anugerah Panca Wisesa - Industrial Products Distributor",
+  "short_name": "APW Official",
+  "description": "Distributor resmi produk industri, meliputi consumables pengelasan STARLET, mesin las inverter StarArc, wear plate AlloyStar, dan valve industri TSV.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#fd8706",
+  "theme_color": "#8e95a3",
   "orientation": "portrait-primary",
+  "categories": ["business", "industrial"],
+  "lang": "id",
+  "dir": "ltr",
   "icons": [
     {
-      "src": "/favicon.ico",
+      "src": "/assets/images/logo-navbar.svg",
       "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32",
       "type": "image/x-icon"
-    },
-    {
-      "src": "/assets/images/logo-navbar.svg",
-      "sizes": "192x192",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/assets/images/logo-navbar.svg",
-      "sizes": "512x512",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
     }
   ],
-  "categories": ["business", "industrial", "welding", "manufacturing"],
-  "lang": "en-US",
-  "dir": "ltr",
+  "screenshots": [
+    {
+      "src": "/assets/apw-og.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
   "scope": "/",
-  "id": "psp-industrial-services"
+  "id": "apw-official-website"
 }

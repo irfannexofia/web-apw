@@ -49,10 +49,26 @@ export interface Dictionary {
       };
     };
     stats: {
-      projects: string;
-      satisfaction: string;
-      support: string;
-      experience: string;
+      projects: {
+        number: string;
+        label: string;
+        description: string;
+      };
+      satisfaction: {
+        number: string;
+        label: string;
+        description: string;
+      };
+      support: {
+        number: string;
+        label: string;
+        description: string;
+      };
+      experience: {
+        number: string;
+        label: string;
+        description: string;
+      };
     };
     impact: {
       title: string;
@@ -217,17 +233,17 @@ export interface Dictionary {
           label: string;
           description: string;
         };
-        clients: {
-          number: string;
-          label: string;
-          description: string;
-        };
-        experience: {
+        satisfaction: {
           number: string;
           label: string;
           description: string;
         };
         support: {
+          number: string;
+          label: string;
+          description: string;
+        };
+        experience: {
           number: string;
           label: string;
           description: string;

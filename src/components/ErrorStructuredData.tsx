@@ -26,12 +26,12 @@ const ErrorStructuredData = ({
       : locale === "id"
         ? "Terjadi kesalahan di sisi kami. Kami sedang memperbaikinya."
         : "Something went wrong on our end. We're working to fix it.",
-    url: `https://phillippesuryapratama.com/${locale}/`,
+    url: `https://anugerahpancawisesa.com/${locale}/`,
     mainEntity: {
       "@type": "Organization",
-      name: "PT. Phillippe Surya Pratama",
-      url: "https://phillippesuryapratama.com",
-      logo: "https://phillippesuryapratama.com/assets/images/logo-navbar.svg",
+      name: "PT. Anugerah Panca Wisesa",
+      url: "https://anugerahpancawisesa.com",
+      logo: "https://anugerahpancawisesa.com/assets/images/logo-navbar.svg",
       description:
         locale === "id"
           ? "Spesialis dalam Layanan Las Industri dan Perbaikan Valve"
@@ -49,7 +49,7 @@ const ErrorStructuredData = ({
         contactType: "customer service",
         availableLanguage: ["English", "Indonesian"],
       },
-      sameAs: ["https://phillippesuryapratama.com"],
+      sameAs: ["https://anugerahpancawisesa.com"],
     },
     breadcrumb: {
       "@type": "BreadcrumbList",
@@ -58,7 +58,7 @@ const ErrorStructuredData = ({
           "@type": "ListItem",
           position: 1,
           name: locale === "id" ? "Beranda" : "Home",
-          item: `https://phillippesuryapratama.com/${locale}/`,
+          item: `https://anugerahpancawisesa.com/${locale}/`,
         },
         {
           "@type": "ListItem",
@@ -70,7 +70,7 @@ const ErrorStructuredData = ({
             : locale === "id"
               ? "Kesalahan Server"
               : "Server Error",
-          item: `https://phillippesuryapratama.com/${locale}/`,
+          item: `https://anugerahpancawisesa.com/${locale}/`,
         },
       ],
     },

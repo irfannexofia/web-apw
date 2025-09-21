@@ -49,14 +49,14 @@ const GlobalErrorPage = ({ error, reset }: ErrorPageProps) => {
             <div className="w-20 h-20 mx-auto mb-4 flex items-center justify-center">
               <Image
                 src="/assets/images/logo-navbar.svg"
-                alt="PT. PHILLIPPE SURYA PRATAMA Logo"
+                alt="PT. ANUGERAH PANCA WISESA Logo"
                 width={80}
                 height={80}
                 className="w-full h-full object-contain"
               />
             </div>
             <h1 className="text-2xl font-bold text-gray-900 mb-2">
-              PT. PHILLIPPE SURYA PRATAMA
+              PT. ANUGERAH PANCA WISESA
             </h1>
             <p className="text-sm text-gray-600">
               Industrial Welding & Valve Services

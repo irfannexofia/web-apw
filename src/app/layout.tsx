@@ -1,8 +1,9 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "PT. PHILLIPPE SURYA PRATAMA",
-  description: "Industrial Welding & Valve Repair Services",
+  title: "PT. ANUGERAH PANCA WISESA",
+  description:
+    "Distributor Welding Consumables, Machines, Wear Plate & Industrial Valves",
 };
 
 export default function RootLayout({

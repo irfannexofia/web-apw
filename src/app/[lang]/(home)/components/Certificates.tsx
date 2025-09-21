@@ -67,8 +67,8 @@ const Certificates = ({ dictionary }: CertificatesProps) => {
       description: dictionary.certificates.iso9001.description,
       icon: "lucide:award",
       color: "from-blue-500 to-blue-600",
-      file: "ISO 9001 PT PHILLIPPE SURYA PRATAMA.pdf",
-      fileUrl: "/certificates/ISO 9001 PT PHILLIPPE SURYA PRATAMA.pdf",
+      file: "ISO 9001 PT ANUGERAH PANCA WISESA.pdf",
+      fileUrl: "/certificates/ISO 9001 PT ANUGERAH PANCA WISESA.pdf",
     },
     {
       id: "iso45001",
@@ -77,8 +77,8 @@ const Certificates = ({ dictionary }: CertificatesProps) => {
       description: dictionary.certificates.iso45001.description,
       icon: "lucide:shield-check",
       color: "from-green-500 to-green-600",
-      file: "ISO 45001 PT PHILLIPPE SURYA PRATAMA.pdf",
-      fileUrl: "/certificates/ISO 45001 PT PHILLIPPE SURYA PRATAMA.pdf",
+      file: "ISO 45001 PT ANUGERAH PANCA WISESA.pdf",
+      fileUrl: "/certificates/ISO 45001 PT ANUGERAH PANCA WISESA.pdf",
     },
     {
       id: "sbu",
@@ -87,8 +87,8 @@ const Certificates = ({ dictionary }: CertificatesProps) => {
       description: dictionary.certificates.sbu.description,
       icon: "lucide:building",
       color: "from-purple-500 to-purple-600",
-      file: "IN001 - PHILLIPPE SURYA PRATAMA, PT SBUJK.pdf",
-      fileUrl: "/certificates/IN001 - PHILLIPPE SURYA PRATAMA, PT SBUJK.pdf",
+      file: "IN001 - ANUGERAH PANCA WISESA, PT SBUJK.pdf",
+      fileUrl: "/certificates/IN001 - ANUGERAH PANCA WISESA, PT SBUJK.pdf",
     },
     {
       id: "ss43291",
@@ -97,8 +97,8 @@ const Certificates = ({ dictionary }: CertificatesProps) => {
       description: dictionary.certificates.ss.description,
       icon: "lucide:wrench",
       color: "from-orange-500 to-orange-600",
-      file: "SS 43291 - PHILLIPPE SURYA PRATAMA, PT.pdf",
-      fileUrl: "/certificates/SS 43291 - PHILLIPPE SURYA PRATAMA, PT.pdf",
+      file: "SS 43291 - ANUGERAH PANCA WISESA, PT.pdf",
+      fileUrl: "/certificates/SS 43291 - ANUGERAH PANCA WISESA, PT.pdf",
     },
   ];
 
@@ -196,7 +196,7 @@ const Certificates = ({ dictionary }: CertificatesProps) => {
         </div>
 
         {/* Trust Indicators */}
-        <div className="bg-gradient-to-r from-primary to-psp-gold rounded-2xl p-12 text-white">
+        <div className="bg-gradient-to-r from-primary to-apw-gold rounded-2xl p-12 text-white">
           <div className="text-center mb-8">
             <h3 className="text-3xl font-bold mb-4">
               {dictionary.certificates.whyImportant.title}
@@ -309,7 +309,7 @@ const Certificates = ({ dictionary }: CertificatesProps) => {
                         ?.fileUrl
                     }
                     download
-                    className="inline-flex items-center px-6 py-3 bg-psp-gold text-white font-semibold rounded-lg hover:bg-psp-gold/80 transition-all duration-300"
+                    className="inline-flex items-center px-6 py-3 bg-apw-gold text-white font-semibold rounded-lg hover:bg-apw-gold/80 transition-all duration-300"
                   >
                     <IconifyIcon
                       icon="lucide:download"

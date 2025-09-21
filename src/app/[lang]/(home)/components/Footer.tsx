@@ -11,12 +11,12 @@ interface Dictionary {
       phone: string;
       email: string;
     };
-    services: {
+    products: {
       title: string;
-      welding: string;
-      valve: string;
-      products: string;
-      consultation: string;
+      starlet: string;
+      stararc: string;
+      allostar: string;
+      tsv: string;
     };
     quickLinks: {
       title: string;
@@ -64,7 +64,7 @@ const Footer = ({ dictionary }: FooterProps) => {
                   <div className="w-12 h-12 flex items-center justify-center">
                     <Image
                       src="/assets/images/logo-navbar.svg"
-                      alt="PT. PHILLIPPE SURYA PRATAMA Logo"
+                      alt="PT. ANUGERAH PANCA WISESA Logo"
                       width={48}
                       height={48}
                       className="w-full h-full object-contain"
@@ -119,23 +119,15 @@ const Footer = ({ dictionary }: FooterProps) => {
             {/* Services */}
             <div>
               <h4 className="text-xl font-semibold text-white mb-6">
-                {dictionary.footer.services.title}
+                {dictionary.footer.products.title}
               </h4>
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="#services"
+                    href="#products"
                     className="text-white/80 hover:text-white transition-colors"
                   >
-                    {dictionary.footer.services.welding}
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#services"
-                    className="text-white/80 hover:text-white transition-colors"
-                  >
-                    {dictionary.footer.services.valve}
+                    {dictionary.footer.products.starlet}
                   </a>
                 </li>
                 <li>
@@ -143,15 +135,23 @@ const Footer = ({ dictionary }: FooterProps) => {
                     href="#products"
                     className="text-white/80 hover:text-white transition-colors"
                   >
-                    {dictionary.footer.services.products}
+                    {dictionary.footer.products.stararc}
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#contact"
+                    href="#products"
                     className="text-white/80 hover:text-white transition-colors"
                   >
-                    {dictionary.footer.services.consultation}
+                    {dictionary.footer.products.allostar}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#products"
+                    className="text-white/80 hover:text-white transition-colors"
+                  >
+                    {dictionary.footer.products.tsv}
                   </a>
                 </li>
               </ul>

@@ -6,6 +6,7 @@ const useScrollEvent = () => {
   const [scrollY, setScrollY] = useState(0);
   const [scrollHeight, setScrollHeight] = useState(0);
   const [isClient, setIsClient] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   const handleScroll = () => {
     if (typeof window !== "undefined") {
@@ -18,6 +19,7 @@ const useScrollEvent = () => {
   };
 
   useEffect(() => {
+    setMounted(true);
     setIsClient(true);
 
     if (typeof window !== "undefined") {
@@ -36,10 +38,10 @@ const useScrollEvent = () => {
   }, []);
 
   return {
-    scrollPassed,
-    scrollY: isClient ? scrollY : 0,
-    scrollHeight,
-    isClient,
+    scrollPassed: mounted ? scrollPassed : 0,
+    scrollY: mounted && isClient ? scrollY : 0,
+    scrollHeight: mounted ? scrollHeight : 0,
+    isClient: mounted,
   };
 };
 

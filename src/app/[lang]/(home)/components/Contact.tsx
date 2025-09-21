@@ -1,5 +1,4 @@
 "use client";
-import MapEmbed from "@/components/MapEmbed";
 import IconifyIcon from "@/components/wrappers/IconifyIcon";
 import React, { useState } from "react";
 
@@ -7,26 +6,12 @@ interface Dictionary {
   contact: {
     title: string;
     subtitle: string;
-    description: string;
-    map: {
-      title: string;
-      description: string;
-      companyName: string;
-      companyTagline: string;
-      address: string;
-      area: string;
-      hours: string;
-    };
     address: {
       title: string;
       mainOffice: {
         title: string;
         address: string;
         hours: string;
-      };
-      workshop: {
-        title: string;
-        address: string;
       };
     };
     phone: {
@@ -110,12 +95,10 @@ interface Dictionary {
       whatsapp: string;
       note: string;
     };
-    cta: {
-      title: string;
-      description: string;
-      learnMore: string;
-      contactUs: string;
-    };
+    map_title: string;
+    whatsapp_chat: string;
+    linkedin_page: string;
+    cta_text: string;
   };
 }
 
@@ -169,29 +152,10 @@ const Contact = ({ dictionary }: ContactProps) => {
     }, 2000);
   };
 
-  const contactInfo = [
-    {
-      title: dictionary.contact.address.mainOffice.title,
-      address: dictionary.contact.address.mainOffice.address,
-      hours: dictionary.contact.address.mainOffice.hours,
-      icon: "lucide:map-pin",
-    },
-    {
-      title: dictionary.contact.address.workshop.title,
-      address: dictionary.contact.address.workshop.address,
-      hours: "",
-      icon: "lucide:factory",
-    },
-  ];
-
   const phoneNumbers = [
     {
       label: dictionary.contact.phone.marketing.label,
       number: dictionary.contact.phone.marketing.number,
-    },
-    {
-      label: dictionary.contact.phone.direct.label,
-      number: dictionary.contact.phone.direct.number,
     },
     {
       label: dictionary.contact.phone.purchasing.label,
@@ -245,7 +209,7 @@ const Contact = ({ dictionary }: ContactProps) => {
             {dictionary.contact.subtitle}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            {dictionary.contact.description}
+            {dictionary.contact.cta_text}
           </p>
         </div>
 
@@ -253,74 +217,198 @@ const Contact = ({ dictionary }: ContactProps) => {
         <div className="mb-16">
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
-              {dictionary.contact.map.title}
+              {dictionary.contact.map_title}
             </h3>
             <p className="text-gray-600 text-center mb-6">
-              {dictionary.contact.map.description}
+              PT. Anugerah Panca Wisesa - Industrial Product Distribution
             </p>
-            <MapEmbed height="500px" mapData={dictionary.contact.map} />
+            <div className="rounded-lg overflow-hidden shadow-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6467.511214446749!2d106.69375219999999!3d-6.0913998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a03dc0d3314f3%3A0x26254c8b38754ef7!2sPT.%20Anugerah%20Panca%20Wisesa!5e1!3m2!1sid!2sid!4v1758230075604!5m2!1sid!2sid"
+                width="100%"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="PT. Anugerah Panca Wisesa Location"
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* Professional Contact Layout */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+          {/* Office Hours & Location */}
+          <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
+            <div className="flex items-center mb-6">
+              <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4">
+                <IconifyIcon
+                  icon="lucide:clock"
+                  className="w-6 h-6 text-white"
+                />
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-gray-900">
+                  Office Hours
+                </h3>
+                <p className="text-primary font-medium">Business Hours</p>
+              </div>
+            </div>
+            <div className="space-y-3">
+              <div className="flex items-center">
+                <IconifyIcon
+                  icon="lucide:calendar"
+                  className="w-4 h-4 text-primary mr-3"
+                />
+                <span className="text-gray-700">Monday - Friday</span>
+              </div>
+              <div className="flex items-center">
+                <IconifyIcon
+                  icon="lucide:clock"
+                  className="w-4 h-4 text-primary mr-3"
+                />
+                <span className="text-gray-700">08:00 - 17:00 WIB</span>
+              </div>
+              <div className="flex items-center">
+                <IconifyIcon
+                  icon="lucide:calendar-x"
+                  className="w-4 h-4 text-red-500 mr-3"
+                />
+                <span className="text-gray-700">Saturday - Sunday: Closed</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Quick Contact */}
+          <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
+            <div className="flex items-center mb-6">
+              <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4">
+                <IconifyIcon
+                  icon="lucide:phone"
+                  className="w-6 h-6 text-white"
+                />
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-gray-900">
+                  Quick Contact
+                </h3>
+                <p className="text-primary font-medium">Call Us Now</p>
+              </div>
+            </div>
+            <div className="space-y-4">
+              <a
+                href="tel:+622122556661"
+                className="flex items-center p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-colors group"
+              >
+                <IconifyIcon
+                  icon="lucide:phone"
+                  className="w-5 h-5 text-green-600 mr-3"
+                />
+                <div>
+                  <div className="font-semibold text-gray-900 group-hover:text-green-600">
+                    Marketing
+                  </div>
+                  <div className="text-sm text-gray-600">+62-21-22556661</div>
+                </div>
+              </a>
+              <a
+                href="https://wa.me/622122556661"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-colors group"
+              >
+                <IconifyIcon
+                  icon="lucide:message-circle"
+                  className="w-5 h-5 text-green-600 mr-3"
+                />
+                <div>
+                  <div className="font-semibold text-gray-900 group-hover:text-green-600">
+                    WhatsApp
+                  </div>
+                  <div className="text-sm text-gray-600">Quick Response</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          {/* Location Info */}
+          <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
+            <div className="flex items-center mb-6">
+              <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4">
+                <IconifyIcon
+                  icon="lucide:map-pin"
+                  className="w-6 h-6 text-white"
+                />
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-gray-900">Location</h3>
+                <p className="text-primary font-medium">Our Office</p>
+              </div>
+            </div>
+            <div className="space-y-3">
+              <div className="flex items-start">
+                <IconifyIcon
+                  icon="lucide:building"
+                  className="w-4 h-4 text-primary mr-3 mt-1"
+                />
+                <span className="text-gray-700 text-sm">
+                  Jl. Raya Prancis, Ruko Villa Taman Bandara Blok N8/15
+                </span>
+              </div>
+              <div className="flex items-start">
+                <IconifyIcon
+                  icon="lucide:map-pin"
+                  className="w-4 h-4 text-primary mr-3 mt-1"
+                />
+                <span className="text-gray-700 text-sm">
+                  Kel. Dadap, Kec. Kosambi, Tangerang 15211
+                </span>
+              </div>
+              <div className="flex items-start">
+                <IconifyIcon
+                  icon="lucide:flag"
+                  className="w-4 h-4 text-primary mr-3 mt-1"
+                />
+                <span className="text-gray-700 text-sm">Indonesia</span>
+              </div>
+            </div>
           </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div className="space-y-8">
-            {/* Address */}
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                {dictionary.contact.address.title}
-              </h3>
-              <div className="space-y-6">
-                {contactInfo.map((info, index) => (
-                  <div key={index} className="bg-gray-50 rounded-xl p-6">
-                    <div className="flex items-start">
-                      <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                        <IconifyIcon
-                          icon={info.icon}
-                          className="w-6 h-6 text-white"
-                        />
-                      </div>
-                      <div>
-                        <h4 className="text-lg font-semibold text-gray-900 mb-2">
-                          {info.title}
-                        </h4>
-                        <p className="text-gray-600 mb-1">{info.address}</p>
-                        {info.hours && (
-                          <p className="text-sm text-gray-500">{info.hours}</p>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
             {/* Phone Numbers */}
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
                 {dictionary.contact.phone.title}
               </h3>
-              <div className="space-y-3">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {phoneNumbers.map((phone, index) => (
                   <div
                     key={index}
-                    className="flex items-center bg-gray-50 rounded-lg p-4"
+                    className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow"
                   >
-                    <IconifyIcon
-                      icon="lucide:phone"
-                      className="w-5 h-5 text-primary mr-3"
-                    />
-                    <div>
-                      <span className="font-medium text-gray-900">
-                        {phone.label}:
-                      </span>
-                      <a
-                        href={`tel:${phone.number.replace(/[^\d+]/g, "")}`}
-                        className="text-primary hover:text-primaryDark ml-2 transition-colors"
-                      >
-                        {phone.number}
-                      </a>
+                    <div className="flex items-center mb-3">
+                      <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mr-3">
+                        <IconifyIcon
+                          icon="lucide:phone"
+                          className="w-5 h-5 text-primary"
+                        />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-900">
+                          {phone.label}
+                        </h4>
+                      </div>
                     </div>
+                    <a
+                      href={`tel:${phone.number.replace(/[^\d+]/g, "")}`}
+                      className="text-primary hover:text-primaryDark transition-colors font-medium"
+                    >
+                      {phone.number}
+                    </a>
                   </div>
                 ))}
               </div>
@@ -331,29 +419,69 @@ const Contact = ({ dictionary }: ContactProps) => {
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
                 {dictionary.contact.email.title}
               </h3>
-              <div className="space-y-3">
+              <div className="space-y-4">
                 {emailAddresses.map((email, index) => (
                   <div
                     key={index}
-                    className="flex items-center bg-gray-50 rounded-lg p-4"
+                    className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow"
                   >
-                    <IconifyIcon
-                      icon="lucide:mail"
-                      className="w-5 h-5 text-primary mr-3"
-                    />
-                    <div>
-                      <span className="font-medium text-gray-900">
-                        {email.label}:
-                      </span>
-                      <a
-                        href={`mailto:${email.address}`}
-                        className="text-primary hover:text-primaryDark ml-2 transition-colors"
-                      >
-                        {email.address}
-                      </a>
+                    <div className="flex items-center mb-3">
+                      <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mr-3">
+                        <IconifyIcon
+                          icon="lucide:mail"
+                          className="w-5 h-5 text-primary"
+                        />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-900">
+                          {email.label}
+                        </h4>
+                      </div>
                     </div>
+                    <a
+                      href={`mailto:${email.address}`}
+                      className="text-primary hover:text-primaryDark transition-colors font-medium"
+                    >
+                      {email.address}
+                    </a>
                   </div>
                 ))}
+              </div>
+            </div>
+
+            {/* Additional Contact Options */}
+            <div className="bg-gradient-to-r from-primary to-apw-mid-gray rounded-2xl p-8 text-white">
+              <h3 className="text-2xl font-bold mb-6">Get in Touch</h3>
+              <p className="text-white/90 mb-6">
+                For technical inquiries, product consultation, or quotation
+                requests, our team is ready to provide the best solutions
+                tailored to your industrial needs.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a
+                  href="https://wa.me/622122556661"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg transition-colors"
+                >
+                  <IconifyIcon
+                    icon="lucide:message-circle"
+                    className="w-5 h-5 mr-2"
+                  />
+                  WhatsApp Chat
+                </a>
+                <a
+                  href="https://linkedin.com/company/pt-anugerah-panca-wisesa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3 border-2 border-white text-white hover:bg-white hover:text-primary font-semibold rounded-lg transition-colors"
+                >
+                  <IconifyIcon
+                    icon="lucide:linkedin"
+                    className="w-5 h-5 mr-2"
+                  />
+                  LinkedIn
+                </a>
               </div>
             </div>
           </div>
@@ -422,18 +550,18 @@ const Contact = ({ dictionary }: ContactProps) => {
                   />
                 </div>
 
-                {/* Phone */}
+                {/* WhatsApp */}
                 <div>
                   <label
-                    htmlFor="phone"
+                    htmlFor="whatsapp"
                     className="block text-sm font-medium text-gray-700 mb-2"
                   >
                     {dictionary.contact.form.fields.phone.label}
                   </label>
                   <input
                     type="tel"
-                    id="phone"
-                    name="phone"
+                    id="whatsapp"
+                    name="whatsapp"
                     value={formData.phone}
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
@@ -562,23 +690,20 @@ const Contact = ({ dictionary }: ContactProps) => {
 
         {/* Final CTA */}
         <div className="mt-20 text-center">
-          <div className="bg-gradient-to-r from-primary to-psp-gold rounded-2xl p-12 text-white">
+          <div className="bg-gradient-to-r from-primary to-apw-mid-gray rounded-2xl p-12 text-white">
             <h3 className="text-3xl font-bold mb-6">
-              {dictionary.contact.cta.title}
+              Ready to Partner with APW?
             </h3>
             <p className="text-xl mb-8 opacity-90 max-w-3xl mx-auto">
-              {dictionary.contact.cta.description}
+              {dictionary.contact.cta_text}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="#services"
+                href="#products"
                 className="inline-flex items-center px-8 py-4 bg-white text-primary font-semibold rounded-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg"
               >
-                <IconifyIcon
-                  icon="lucide:arrow-right"
-                  className="w-5 h-5 mr-2"
-                />
-                {dictionary.contact.cta.learnMore}
+                <IconifyIcon icon="lucide:package" className="w-5 h-5 mr-2" />
+                View Products
               </a>
               <a
                 href="#contact"
@@ -588,7 +713,7 @@ const Contact = ({ dictionary }: ContactProps) => {
                   icon="lucide:message-circle"
                   className="w-5 h-5 mr-2"
                 />
-                {dictionary.contact.cta.contactUs}
+                Contact Us
               </a>
             </div>
           </div>

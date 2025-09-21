@@ -8,13 +8,13 @@ interface ErrorMetadataConfig {
 const errorTranslations = {
   en: {
     "404": {
-      title: "Page Not Found - PT. Phillippe Surya Pratama",
+      title: "Page Not Found - PT. Anugerah Panca Wisesa",
       description:
-        "The page you are looking for doesn't exist or has been moved. PT. Phillippe Surya Pratama - Industrial Welding & Valve Repair Services.",
+        "The page you are looking for doesn't exist or has been moved. PT. Anugerah Panca Wisesa - Industrial Products Distributor.",
       keywords: [
         "404 error",
         "page not found",
-        "PT Phillippe Surya Pratama",
+        "PT Anugerah Panca Wisesa",
         "industrial welding",
         "valve repair",
         "error page",
@@ -23,14 +23,14 @@ const errorTranslations = {
       ],
     },
     "500": {
-      title: "Server Error - PT. Phillippe Surya Pratama",
+      title: "Server Error - PT. Anugerah Panca Wisesa",
       description:
-        "Something went wrong on our end. We're working to fix it. PT. Phillippe Surya Pratama - Industrial Welding & Valve Repair Services.",
+        "Something went wrong on our end. We're working to fix it. PT. Anugerah Panca Wisesa - Industrial Products Distributor.",
       keywords: [
         "500 error",
         "server error",
         "internal server error",
-        "PT Phillippe Surya Pratama",
+        "PT Anugerah Panca Wisesa",
         "industrial welding",
         "valve repair",
         "technical issue",
@@ -40,13 +40,13 @@ const errorTranslations = {
   },
   id: {
     "404": {
-      title: "Halaman Tidak Ditemukan - PT. Phillippe Surya Pratama",
+      title: "Halaman Tidak Ditemukan - PT. Anugerah Panca Wisesa",
       description:
-        "Halaman yang Anda cari tidak ada atau telah dipindahkan. PT. Phillippe Surya Pratama - Layanan Las Industri & Perbaikan Valve.",
+        "Halaman yang Anda cari tidak ada atau telah dipindahkan. PT. Anugerah Panca Wisesa - Distributor Produk Industri.",
       keywords: [
         "error 404",
         "halaman tidak ditemukan",
-        "PT Phillippe Surya Pratama",
+        "PT Anugerah Panca Wisesa",
         "las industri",
         "perbaikan valve",
         "halaman error",
@@ -55,14 +55,14 @@ const errorTranslations = {
       ],
     },
     "500": {
-      title: "Kesalahan Server - PT. Phillippe Surya Pratama",
+      title: "Kesalahan Server - PT. Anugerah Panca Wisesa",
       description:
-        "Terjadi kesalahan di sisi kami. Kami sedang memperbaikinya. PT. Phillippe Surya Pratama - Layanan Las Industri & Perbaikan Valve.",
+        "Terjadi kesalahan di sisi kami. Kami sedang memperbaikinya. PT. Anugerah Panca Wisesa - Distributor Produk Industri.",
       keywords: [
         "error 500",
         "kesalahan server",
         "server error",
-        "PT Phillippe Surya Pratama",
+        "PT Anugerah Panca Wisesa",
         "las industri",
         "perbaikan valve",
         "masalah teknis",
@@ -74,7 +74,7 @@ const errorTranslations = {
 
 export function generateErrorMetadata(config: ErrorMetadataConfig): Metadata {
   const t = errorTranslations[config.locale][config.errorType];
-  const baseUrl = "https://phillippesuryapratama.com";
+  const baseUrl = "https://anugerahpancawisesa.com";
   const url = config.locale === "id" ? `${baseUrl}/id/` : `${baseUrl}/en/`;
 
   return {
@@ -82,9 +82,9 @@ export function generateErrorMetadata(config: ErrorMetadataConfig): Metadata {
     title: t.title,
     description: t.description,
     keywords: t.keywords,
-    authors: [{ name: "PT. Phillippe Surya Pratama" }],
-    creator: "PT. Phillippe Surya Pratama",
-    publisher: "PT. Phillippe Surya Pratama",
+    authors: [{ name: "PT. Anugerah Panca Wisesa" }],
+    creator: "PT. Anugerah Panca Wisesa",
+    publisher: "PT. Anugerah Panca Wisesa",
     robots: {
       index: false, // Don't index error pages
       follow: true,
@@ -100,12 +100,12 @@ export function generateErrorMetadata(config: ErrorMetadataConfig): Metadata {
       type: "website",
       locale: config.locale === "id" ? "id_ID" : "en_US",
       url: url,
-      siteName: "PT. Phillippe Surya Pratama",
+      siteName: "PT. Anugerah Panca Wisesa",
       title: t.title,
       description: t.description,
       images: [
         {
-          url: "https://phillippesuryapratama.com/hero-section.webp",
+          url: "https://anugerahpancawisesa.com/hero-section.webp",
           width: 1200,
           height: 630,
           alt: t.title,
@@ -117,7 +117,7 @@ export function generateErrorMetadata(config: ErrorMetadataConfig): Metadata {
       card: "summary_large_image",
       title: t.title,
       description: t.description,
-      images: ["https://phillippesuryapratama.com/hero-section.webp"],
+      images: ["https://anugerahpancawisesa.com/hero-section.webp"],
     },
     verification: {
       google: "your-google-search-console-verification-code",

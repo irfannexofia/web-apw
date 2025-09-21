@@ -5,54 +5,74 @@
     "services": "Layanan",
     "products": "Produk",
     "certificates": "Sertifikat",
+    "gallery": "Galeri",
     "clients": "Klien",
     "contact": "Kontak"
   },
   "hero": {
-    "badge": "Keunggulan Industri",
-    "title": "Layanan Las & Perbaikan Valve Profesional",
-    "subtitle": "PT. Phillippe Surya Pratama menyediakan solusi industri yang dapat diandalkan dengan teknisi berpengalaman dan pengalaman lapangan bertahun-tahun. Mendukung sektor pertambangan, minyak & gas, manufaktur, dan pembangkit listrik.",
-    "cta1": "Layanan Kami",
-    "cta2": "Lihat Produk",
+    "badge": "Distributor Industri Terpercaya",
+    "title": "Distributor Resmi Welding Consumables, Welding Machines, Wear Plate & Industrial Valves",
+    "subtitle": "Solusi industri terpercaya untuk pengelasan, pemotongan, proteksi aus, dan sistem valve di berbagai sektor manufaktur, pertambangan, oil & gas, dan konstruksi.",
+    "tagline": "Precision Welding, Reliable Machines, Durable Protection, Trusted Valves",
+    "cta1": "Lihat Produk",
+    "cta2": "Unduh Katalog",
+    "cta3": "Hubungi Kami",
     "description": "Kami menyediakan:",
-    "services": "Layanan las komprehensif dan perbaikan valve.",
-    "products": "Paduan las dan peralatan berkualitas tinggi untuk penggunaan profesional.",
+    "services": "Solusi lengkap untuk pengelasan, pemotongan, proteksi aus, dan sistem valve.",
+    "products": "Produk industri berkualitas tinggi dari merek internasional terpercaya.",
     "exploreServices": "Jelajahi Layanan",
+    "exploreProducts": "Jelajahi Produk",
     "getStarted": "Dapatkan Penawaran"
   },
   "about": {
-    "badge": "Tentang PSP",
-    "title": "Mitra Industri Terpercaya Anda",
-    "subtitle": "PT. Phillippe Surya Pratama adalah perusahaan yang berfokus pada layanan yang mengkhususkan diri dalam las industri dan perbaikan valve dengan komitmen terhadap keunggulan dan keandalan.",
-    "description": "Dengan tim teknisi berpengalaman dan pengalaman lapangan bertahun-tahun, kami memberikan solusi yang dapat diandalkan untuk mendukung kebutuhan operasional berbagai sektor industri.",
+    "badge": "Tentang APW",
+    "title": "Mitra Distribusi Industri Terpercaya Anda",
+    "subtitle": "PT. Anugerah Panca Wisesa (APW) merupakan perusahaan distribusi industri yang berfokus pada penyediaan produk pengelasan, mesin las inverter modern, wear plate tahan aus, serta valve industri dari merek global terpercaya.",
+    "description": "Dengan komitmen terhadap keunggulan dan standar kualitas internasional, APW melayani berbagai industri termasuk pertambangan, minyak & gas, konstruksi, manufaktur, dan pembangkit listrik.",
     "vision": {
       "title": "Visi",
-      "description": "Menjadi penyedia utama layanan las industri dan perbaikan valve, diakui karena keahlian teknis, kualitas pekerjaan, dan komitmen terhadap kepuasan pelanggan."
+      "description": "Menjadi distributor produk industri terpercaya yang memberikan solusi unggul dan berkelanjutan untuk seluruh sektor manufaktur & energi di Indonesia."
     },
     "mission": {
       "title": "Misi",
-      "items": "Memberikan Keunggulan: Menyediakan layanan las dan perbaikan valve berkualitas tinggi yang memenuhi standar internasional.\nMemastikan Keandalan: Mempertahankan kinerja dan keandalan yang konsisten dalam semua solusi industri kami.\nMendukung Industri: Berkontribusi pada kesuksesan sektor pertambangan, minyak & gas, manufaktur, dan pembangkit listrik melalui layanan khusus kami."
+      "items": "Kami berkomitmen untuk memberikan produk berkualitas internasional dengan harga kompetitif, memberikan layanan konsultasi teknis untuk setiap kebutuhan klien, menjaga keberlangsungan supply chain dengan ketersediaan stok dan distribusi yang cepat, dan membangun kepercayaan sebagai mitra jangka panjang bagi industri berat."
     },
     "values": {
-      "title": "Mengapa Memilih PSP?",
+      "title": "Nilai-Nilai Kami",
       "expertise": {
         "title": "Keahlian Teknis",
-        "description": "Tim kami terdiri dari teknisi bersertifikat dengan pengalaman luas dalam aplikasi las industri dan perbaikan valve."
+        "description": "Pengetahuan mendalam tentang produk industri dan aplikasinya untuk memberikan solusi terbaik."
       },
       "quality": {
         "title": "Jaminan Kualitas",
-        "description": "Kami mempertahankan standar kualitas yang ketat dan menggunakan material premium untuk memastikan hasil yang tahan lama untuk semua layanan kami."
+        "description": "Semua produk memenuhi standar internasional (API, ASME, ANSI, OEM) dengan kontrol kualitas komprehensif."
       },
       "reliability": {
-        "title": "Layanan Terpercaya",
-        "description": "Kami memahami sifat kritis operasi industri dan memberikan solusi yang dapat diandalkan yang meminimalkan downtime."
+        "title": "Kemitraan Jangka Panjang",
+        "description": "Komunikasi transparan dan respon cepat untuk menjaga hubungan klien jangka panjang."
       }
     },
     "stats": {
-      "projects": "Proyek Selesai",
-      "satisfaction": "Kepuasan Klien",
-      "support": "Dukungan Tersedia",
-      "experience": "Tahun Pengalaman"
+      "projects": {
+        "number": "500+",
+        "label": "Produk Didistribusikan",
+        "description": "Produk industri"
+      },
+      "satisfaction": {
+        "number": "98%",
+        "label": "Kepuasan Klien",
+        "description": "Tingkat kepuasan pelanggan"
+      },
+      "support": {
+        "number": "24/7",
+        "label": "Dukungan Teknis",
+        "description": "Dukungan profesional"
+      },
+      "experience": {
+        "number": "15+",
+        "label": "Tahun Pengalaman",
+        "description": "Keahlian industri"
+      }
     },
     "impact": {
       "title": "Dampak Kami",
@@ -60,306 +80,247 @@
     },
     "philosophy": {
       "title": "Keunggulan Industri",
-      "description": "Kami percaya bahwa layanan pemeliharaan dan perbaikan industri yang tepat sangat penting untuk efisiensi operasional dan keselamatan. Komitmen kami terhadap keunggulan memastikan bahwa setiap proyek yang kami tangani memenuhi standar kualitas dan keandalan tertinggi."
+      "description": "Kami percaya bahwa produk industri yang tepat dan dukungan teknis sangat penting untuk efisiensi operasional dan keselamatan. Komitmen kami terhadap keunggulan memastikan bahwa setiap produk yang kami suplai memenuhi standar kualitas dan keandalan tertinggi."
     },
     "exploreServices": "Jelajahi Layanan Kami",
-    "startJourney": "Mulai Proyek Anda",
+    "exploreProducts": "Jelajahi Produk Kami",
+    "startJourney": "Mulai Kemitraan Anda",
     "locations": {
       "mainOffice": {
         "title": "Kantor Utama",
-        "address": "Ruko Villa Taman Bandara Blok N8/15, Dadap, Kosambi, Tangerang.",
-        "hours": "(Sen–Jum, 08.00–16.00)"
-      },
-      "workshop": {
-        "title": "Workshop",
-        "address": "Pergudangan 99 Blok Q/33, Kosambi, Tangerang."
+        "address": "Jl. Raya Prancis, Ruko Villa Taman Bandara Blok N8/15, Kel. Dadap, Kec. Kosambi, Tangerang 15211 – Indonesia",
+        "hours": "(Sen–Jum, 08.00–17.00)"
       }
     }
   },
-  "services": {
-    "title": "Layanan Kami",
-    "subtitle": "Dua Layanan Unggulan yang Menjadi Fondasi Reputasi PSP",
-    "description": "Kami menawarkan dua layanan unggulan yang menjadi fondasi reputasi PSP: Welding Service dan Valve Repair Service.",
-    "welding": {
-      "title": "1) Welding Service",
-      "subtitle": "Expert Industrial Welding for Equipment Repair & Fabrication",
-      "description": "Penanganan crack repair, reinforcement, build-up worn parts, dan custom fabrication.",
-      "methods": "Metode",
-      "materials": "Material",
-      "applications": "Aplikasi",
-      "industries": "Industri",
-      "methodsList": [
-        "SMAW",
-        "GTAW (TIG)",
-        "FCAW",
-        "GMAW (MIG)",
-        "Hardfacing & Overlay"
-      ],
-      "materialsList": [
-        "Carbon steel",
-        "Stainless",
-        "Alloy",
-        "Cast iron",
-        "Non-ferrous"
-      ],
-      "applicationsList": [
-        "Tank & vessel repair",
-        "Structural reinforcement",
-        "Custom metal fabrication"
-      ],
-      "industriesList": [
-        "Mining",
-        "Oil & Gas",
-        "Power",
-        "Cement",
-        "Steel",
-        "Petrochemical",
-        "Manufacturing"
-      ]
-    },
-    "valve": {
-      "title": "2) Valve Repair Service",
-      "subtitle": "Comprehensive Valve Repair, Reconditioning & Testing",
-      "description": "Tahapan layanan: inspection & diagnostic, disassembly & cleaning, component repair or replacement, lapping & machining, reassembly & calibration, hydrostatic/pneumatic pressure testing, diakhiri final quality check & reporting.",
-      "process": "Proses Layanan",
-      "types": "Valve Types",
-      "standards": "Standar",
-      "industries": "Industri",
-      "processList": [
-        "Inspection & Diagnostic",
-        "Disassembly & Cleaning",
-        "Component Repair or Replacement",
-        "Lapping & Machining",
-        "Reassembly & Calibration",
-        "Hydrostatic/Pneumatic Testing",
-        "Final Quality Check & Reporting"
-      ],
-      "typesList": [
-        "Gate",
-        "Globe",
-        "Ball",
-        "Check",
-        "Butterfly",
-        "Relief",
-        "Control"
-      ],
-      "standardsList": ["API", "ASME", "ANSI", "OEM"],
-      "industriesList": [
-        "Oil & Gas",
-        "Petrochemical",
-        "Power Plant",
-        "Water Treatment",
-        "Pulp & Paper",
-        "Chemical",
-        "Food & Beverage"
-      ]
-    },
-    "cta": {
-      "title": "Siap Mengurangi Downtime & Meningkatkan Keandalan Peralatan?",
-      "description": "Jangan tunggu sampai masalah produksi menghambat profit. Hubungi kami sekarang untuk solusi yang cepat, aman, dan berstandar internasional.",
-      "contact": "Hubungi Kami",
-      "viewProducts": "Lihat Produk"
-    },
-    "getStarted": "Mulai",
-    "technologiesUsed": "Teknologi yang Digunakan",
-    "keyFeatures": "Fitur Utama"
-  },
   "products": {
-    "title": "Produk (via APW)",
-    "subtitle": "Product Supply melalui PT. Anugerah Panca Wisesa (APW)",
-    "description": "Sebagai pendukung kelancaran operasi, PSP berkolaborasi dengan APW untuk menyediakan produk industri dari brand tepercaya.",
+    "title": "Produk Utama Kami",
+    "subtitle": "PT. Anugerah Panca Wisesa (APW) menghadirkan lini produk unggulan yang menjadi solusi utama untuk kebutuhan pengelasan, pemotongan, proteksi aus, dan sistem valve industri.",
+    "description": "Kami mendistribusikan empat lini produk utama yang menjadi fondasi keunggulan distribusi APW: Consumables Pengelasan STARLET, Mesin Las StarArc, Wear Plate AlloyStar, dan Valve Industri TSV.",
     "starlet": {
-      "name": "Starlet",
-      "type": "Welding electrodes & wires",
-      "description": "Arc stabil, bead rapi, slag mudah dilepas. Cocok untuk general fabrication & perbaikan rutin.",
+      "name": "STARLET® Welding Consumables",
+      "type": "Welding Consumables",
+      "description": "Consumables berkualitas tinggi untuk berbagai proses pengelasan termasuk SMAW, GMAW/MAG, FCAW, dan GTAW/TIG",
       "features": [
-        "Arc stabil",
-        "Bead rapi",
-        "Slag mudah dilepas",
-        "Cocok untuk general fabrication",
-        "Perbaikan rutin"
+        "Arc stabil & mudah dinyalakan",
+        "Slag mudah dilepas, hasil las rapi",
+        "Laju endap optimal dengan efisiensi tinggi",
+        "Komposisi kimia terkontrol"
+      ]
+    },
+    "stararc": {
+      "name": "StarArc® Welding Machines",
+      "type": "Welding Machines",
+      "description": "Mesin las inverter modern dengan kontrol presisi arus & tegangan, mendukung berbagai proses",
+      "features": [
+        "Hot start, anti-stick, thermal protection",
+        "Duty cycle tinggi, stabil untuk operasi berat",
+        "Panel digital modern dengan presisi pengaturan",
+        "Efisiensi energi superior"
+      ]
+    },
+    "allostar": {
+      "name": "AlloyStar® Wear Plate",
+      "type": "Wear Plate",
+      "description": "Wear plate dengan lapisan hardfacing dan cladding yang memberikan perlindungan maksimal terhadap keausan, gesekan, dan korosi",
+      "features": [
+        "Tahan aus dalam kondisi ekstrem",
+        "Meningkatkan umur pakai komponen",
+        "Mudah diaplikasikan pada bucket, chute, crusher, conveyor",
+        "Mengurangi biaya maintenance jangka panjang"
+      ]
+    },
+    "tsv": {
+      "name": "TSV® Industrial Valves",
+      "type": "Industrial Valves",
+      "description": "Valve industri berkualitas tinggi untuk mengatur aliran fluida pada berbagai aplikasi",
+      "features": [
+        "Material tahan tekanan & korosi",
+        "Proses perakitan sesuai standar API, ASME, ANSI",
+        "Diuji dengan hydrostatic & pneumatic testing",
+        "Umur siklus komponen panjang"
       ]
     },
     "geka": {
-      "name": "GEKA",
-      "type": "Valves, welding electrodes & machines",
-      "description": "Kompetitif & andal untuk kebutuhan project-based maupun harian.",
+      "name": "GEKA Welding Consumables",
+      "type": "Welding Consumables",
+      "description": "Consumables pengelasan berkualitas tinggi untuk berbagai aplikasi",
       "features": [
-        "Kompetitif & andal",
-        "Project-based solutions",
-        "Kebutuhan harian",
-        "Valves & welding equipment",
-        "Quality assurance"
+        "Kualitas Premium",
+        "Performa Andal",
+        "Jangkauan Luas",
+        "Standar Industri"
       ]
     },
     "weldingAlloys": {
       "name": "Welding Alloys",
-      "type": "Hardfacing & cladding",
-      "description": "Berketahanan aus & korosi untuk heavy-duty applications.",
+      "type": "Specialty Alloys",
+      "description": "Paduan pengelasan khusus untuk aplikasi spesifik",
       "features": [
-        "Berketahanan aus",
-        "Anti korosi",
-        "Heavy-duty applications",
-        "Hardfacing solutions",
-        "Cladding technology"
+        "Paduan Khusus",
+        "Performa Tinggi",
+        "Solusi Custom",
+        "Dukungan Teknis"
       ]
     },
-    "features": "Keunggulan",
-    "inquireNow": "Inquire Now",
+    "features": "Fitur Utama",
+    "inquireNow": "Tanyakan Sekarang",
+    "viewDetails": "Lihat Detail",
+    "backToProducts": "Kembali ke Produk",
+    "backToHome": "Kembali ke Beranda",
+    "technicalSpecs": "Spesifikasi Teknis",
+    "applications": "Aplikasi",
+    "productVariants": "Varian Produk",
+    "standards": "Standar",
+    "quality": "Kualitas",
+    "support": "Dukungan",
+    "delivery": "Pengiriman",
+    "getQuote": "Minta Penawaran",
     "howToPurchase": {
-      "title": "How to Purchase",
-      "description": "Semua inquiry diarahkan ke APW; tim PSP membantu rekomendasi teknis agar spesifikasi produk sesuai kebutuhan.",
-      "getRecommendation": "Get Technical Recommendation",
-      "callDirectly": "Call APW Directly"
+      "title": "Cara Pembelian",
+      "description": "Langkah mudah untuk mendapatkan produk kami",
+      "getRecommendation": "Dapatkan Rekomendasi Produk",
+      "callDirectly": "Hubungi Langsung"
     },
     "gallery": {
-      "title": "Product Gallery",
-      "description": "Kolase visual brand & produk yang didistribusikan melalui APW. Tunjukkan variasi produk consumables (electrodes, wires, rods), valves, dan welding machines.",
-      "moreProducts": "More Products"
-    }
+      "title": "Galeri Produk",
+      "description": "Tampilan visual produk industri kami",
+      "moreProducts": "Produk Lainnya"
+    },
+    "cta": {
+      "title": "Siap Mengoptimalkan Operasional Industri Anda dengan Produk Terpercaya?",
+      "description": "Jangan tunggu sampai masalah produksi menghambat efisiensi. Hubungi kami sekarang untuk solusi produk yang cepat, andal, dan berstandar internasional.",
+      "contact": "Hubungi Kami",
+      "viewGallery": "Lihat Galeri"
+    },
+    "getStarted": "Mulai",
+    "downloadCatalog": "Download Katalog"
   },
-  "certificates": {
-    "title": "Sertifikasi",
-    "subtitle": "Komitmen kami terhadap kualitas dan standar internasional",
-    "description": "PSP memiliki sertifikasi resmi yang membuktikan komitmen kami terhadap kualitas, keselamatan, dan standar industri internasional.",
-    "iso9001": {
-      "title": "ISO 9001:2015",
-      "description": "Sertifikasi Sistem Manajemen Mutu yang memastikan kualitas konsisten dalam semua layanan kami."
+  "gallery": {
+    "title": "Galeri Produk",
+    "subtitle": "Tampilan Visual Ragam Produk Industri APW",
+    "description": "Jelajahi ragam produk industri komprehensif kami melalui galeri visual. Lihat variasi consumables (electrodes, wires, rods), mesin las, wear plate, dan valve industri yang kami distribusikan.",
+    "starlet": {
+      "title": "Consumables Pengelasan STARLET",
+      "description": "Electrodes, kawat las, dan filler rod berkualitas tinggi untuk berbagai aplikasi industri."
     },
-    "iso45001": {
-      "title": "ISO 45001:2018",
-      "description": "Sertifikasi Sistem Manajemen Keselamatan dan Kesehatan Kerja untuk keselamatan tempat kerja."
+    "stararc": {
+      "title": "Mesin Las StarArc",
+      "description": "Mesin las inverter modern untuk penggunaan profesional dan industri."
     },
-    "sbu": {
-      "title": "Sertifikat SBUJK",
-      "description": "Sertifikat Badan Usaha Jasa Konstruksi untuk layanan konstruksi profesional."
+    "allostar": {
+      "title": "Wear Plate AlloyStar",
+      "description": "Wear plate tahan lama untuk aplikasi industri berat."
     },
-    "ss": {
-      "title": "Sertifikat SS",
-      "description": "Sertifikasi Keselamatan dan Keamanan untuk operasi industri."
+    "tsv": {
+      "title": "Valve Industri TSV",
+      "description": "Valve industri berkualitas tinggi untuk berbagai aplikasi kontrol fluida."
     },
-    "viewCertificate": "Lihat Sertifikat",
-    "downloadCertificate": "Unduh Sertifikat",
-    "whyImportant": {
-      "title": "Mengapa Sertifikasi Penting?",
-      "description": "Sertifikasi internasional memastikan standar kualitas, keselamatan, dan profesionalisme yang konsisten dalam setiap proyek yang kami kerjakan.",
-      "quality": {
-        "title": "Kualitas Terjamin",
-        "description": "ISO 9001 memastikan proses kerja yang konsisten dan berkelanjutan"
-      },
-      "safety": {
-        "title": "Keselamatan Prioritas",
-        "description": "ISO 45001 menjamin lingkungan kerja yang aman dan sehat"
-      },
-      "competence": {
-        "title": "Kompetensi Terverifikasi",
-        "description": "SBU JK dan sertifikat khusus membuktikan keahlian teknis kami"
-      }
+    "integrated": {
+      "title": "Solusi Terintegrasi",
+      "description": "Solusi industri lengkap yang menggabungkan ragam produk kami."
     },
-    "modal": {
-      "viewPdf": "Lihat PDF",
-      "downloadPdf": "Unduh PDF",
-      "back": "Kembali",
-      "description": "Sertifikat resmi tersedia dalam format PDF. Klik tombol di bawah untuk melihat atau mengunduh sertifikat."
-    }
+    "moreProducts": "Produk Lainnya",
+    "downloadCatalog": "Download Katalog"
   },
   "clients": {
-    "title": "Klien Kami",
-    "subtitle": "Klien Kami yang Percaya pada PSP",
-    "description": "Menampilkan daftar klien secara ringkas dengan mini-deskripsi proyek untuk konteks. Gunakan grid logo/grayscale untuk konsistensi visual.",
+    "title": "Dipercaya oleh Industri Terbesar di Indonesia",
+    "subtitle": "Produk dan layanan APW telah digunakan oleh berbagai perusahaan terkemuka di sektor pertambangan, minyak & gas, galangan kapal, manufaktur baja, konstruksi, serta pembangkit listrik.",
+    "description": "Sejak awal berdiri, APW telah dipercaya oleh perusahaan nasional maupun multinasional. Dukungan produk dan layanan kami membantu menjaga kelancaran operasional industri berat dan memastikan standar kualitas internasional.",
     "clientList": {
       "wilmar": {
-        "name": "PT. Wilmar Nabati",
-        "sector": "Agribusiness",
-        "project": "Fabrikasi & pemasangan ducting",
-        "description": "Professional ducting fabrication and installation services for industrial facilities."
+        "name": "Wilmar Group",
+        "sector": "Agribisnis",
+        "project": "Maintenance Industri",
+        "description": "Consumables pengelasan untuk peralatan industri"
       },
       "petrokimia": {
-        "name": "PT. Petrokimia Gresik",
-        "sector": "Petrochemical",
-        "project": "Pekerjaan Scrubber Venturi Tank",
-        "description": "Specialized welding and repair work on critical petrochemical equipment."
+        "name": "Petrokimia Gresik",
+        "sector": "Petrokimia",
+        "project": "Operasi Pabrik",
+        "description": "Valve industri dan consumables"
       },
       "pjb": {
-        "name": "PT. PJB Jepara",
-        "sector": "Power Generation",
-        "project": "Maintenance Trass Silo",
-        "description": "Ongoing maintenance services for power plant silo systems to ensure operational continuity."
+        "name": "PJB Services",
+        "sector": "Pembangkit Listrik",
+        "project": "Maintenance Pembangkit",
+        "description": "Peralatan industri khusus"
       }
     },
-    "project": "Project",
+    "project": "Proyek",
     "impact": {
-      "title": "Dampak Klien Kami",
-      "description": "Angka yang membuktikan komitmen kami pada keunggulan",
+      "title": "Dampak Kami",
+      "description": "Angka yang menunjukkan komitmen kami terhadap keunggulan industri",
       "stats": {
         "projects": {
-          "number": "100+",
-          "label": "Projects Completed",
-          "description": "Successfully delivered industrial projects across various sectors"
+          "number": "500+",
+          "label": "Produk Didistribusikan",
+          "description": "Beragam produk industri yang didistribusikan"
         },
-        "clients": {
-          "number": "50+",
-          "label": "Happy Clients",
-          "description": "Long-term partnerships with satisfied industrial clients"
+        "satisfaction": {
+          "number": "98%",
+          "label": "Kepuasan Klien",
+          "description": "Tingkat kepuasan pelanggan"
         },
         "experience": {
-          "number": "13+",
-          "label": "Years Experience",
-          "description": "Over a decade of expertise in industrial welding and valve repair"
+          "number": "10+",
+          "label": "Tahun Pengalaman",
+          "description": "Dekade pengalaman dalam distribusi industri"
         },
         "support": {
           "number": "24/7",
-          "label": "Support Available",
-          "description": "Round-the-clock technical support for critical operations"
+          "label": "Dukungan Teknis",
+          "description": "Bantuan teknis selama 24 jam"
         }
       }
     },
     "testimonials": {
       "title": "Testimoni Klien",
-      "description": "Apa yang dikatakan klien tentang layanan PSP",
+      "description": "Apa yang dikatakan klien kami tentang produk dan layanan APW",
       "wilmar": {
-        "quote": "PSP memberikan layanan welding yang sangat profesional. Tim mereka sangat berpengalaman dan hasil pekerjaannya sesuai standar internasional.",
-        "author": "PT. Wilmar Nabati"
+        "quote": "Consumables pengelasan APW telah meningkatkan efisiensi produksi kami secara signifikan.",
+        "author": "Wilmar Group"
       },
       "petrokimia": {
-        "quote": "Valve repair service dari PSP sangat memuaskan. Mereka mampu menyelesaikan perbaikan dengan cepat dan berkualitas tinggi.",
-        "author": "PT. Petrokimia Gresik"
+        "quote": "Dukungan teknis yang sangat baik dan kualitas produk yang dapat diandalkan dari APW.",
+        "author": "Petrokimia Gresik"
       },
       "pjb": {
-        "quote": "Maintenance service yang diberikan PSP sangat andal. Mereka memastikan operasi kami berjalan lancar tanpa downtime yang berarti.",
-        "author": "PT. PJB Jepara"
+        "quote": "Valve industri APW memenuhi persyaratan kualitas ketat kami.",
+        "author": "PJB Services"
       }
     },
     "cta": {
-      "title": "Bergabunglah dengan Klien Kami",
-      "description": "Dapatkan layanan welding dan valve repair terbaik untuk industri Anda. Tim PSP siap menjadi mitra terpercaya dalam menjaga keandalan operasional Anda.",
-      "contact": "Hubungi Kami Sekarang",
-      "viewServices": "Lihat Layanan Kami"
+      "title": "Bermitra dengan APW untuk Kebutuhan Industri Anda",
+      "description": "Bergabunglah dengan daftar klien kami yang terus bertambah yang mengandalkan APW untuk produk industri berkualitas tinggi dan dukungan teknis ahli.",
+      "contact": "Hubungi Kami Hari Ini",
+      "viewProducts": "Lihat Produk",
+      "viewServices": "Lihat Layanan"
     }
   },
   "contact": {
-    "title": "Kontak",
-    "subtitle": "Hubungi Kami untuk Solusi Terbaik",
-    "description": "Kami percaya komunikasi yang mudah adalah awal dari kerja sama yang sukses. Tim kami akan menghubungi dalam 1–2 hari kerja.",
+    "title": "Hubungi Kami",
+    "subtitle": "Tim APW siap membantu kebutuhan produk industri Anda – mulai dari konsultasi teknis hingga pemesanan produk.",
+    "description": "Hubungi tim kami untuk konsultasi teknis dan pertanyaan produk.",
     "map": {
       "title": "Lokasi Kami",
-      "description": "Temukan kami dengan mudah menggunakan peta interaktif",
-      "companyName": "PT. Phillippe Surya Pratama",
-      "companyTagline": "Layanan Las Industri & Perbaikan Valve",
-      "address": "Ruko Villa Taman Bandara Blok N8/15",
-      "area": "Dadap, Kosambi, Tangerang",
-      "hours": "Sen-Jum, 08:00-16:00"
+      "description": "Kunjungi kantor utama kami di Tangerang",
+      "companyName": "PT. ANUGERAH PANCA WISESA",
+      "companyTagline": "Distribusi Produk Industri",
+      "address": "Jl. Raya Prancis, Ruko Villa Taman Bandara Blok N8/15",
+      "area": "Kel. Dadap, Kec. Kosambi, Tangerang 15211 – Indonesia",
+      "hours": "Sen–Jum, 08.00 – 17.00 WIB"
     },
     "address": {
-      "title": "Alamat",
+      "title": "Alamat Kantor",
       "mainOffice": {
-        "title": "Main Office",
+        "title": "Kantor Utama",
         "address": "Jl. Raya Prancis, Ruko Villa Taman Bandara Blok N8/15, Kel. Dadap, Kec. Kosambi, Tangerang 15211 – Indonesia",
-        "hours": "(Mon–Fri, 08.00–16.00)"
+        "hours": "(Sen–Jum, 08.00–17.00)"
       },
       "workshop": {
         "title": "Workshop",
-        "address": "Pergudangan 99 Blok Q/33, Kosambi, Tangerang"
+        "address": "Jl. Raya Prancis, Ruko Villa Taman Bandara Blok N8/15, Kel. Dadap, Kec. Kosambi, Tangerang 15211 – Indonesia"
       }
     },
     "phone": {
@@ -369,16 +330,16 @@
         "number": "+62-21-22556661 (ext. Marketing)"
       },
       "direct": {
-        "label": "Direct",
-        "number": "+62-21-92112111"
+        "label": "Direct Line",
+        "number": "+62-21-22556661"
       },
       "purchasing": {
-        "label": "Purchasing Dept.",
+        "label": "Purchasing",
         "number": "+62-21-22556662 (ext. Purchasing Dept.)"
       },
       "financial": {
-        "label": "Financial Dept.",
-        "number": "+62-21-22556663 (ext. Financial Dept.)"
+        "label": "Finance",
+        "number": "+62-21-22556663 (ext. Finance Dept.)"
       },
       "fax": {
         "label": "Fax",
@@ -388,127 +349,246 @@
     "email": {
       "title": "Email",
       "general": {
-        "label": "General Inquiry",
-        "address": "psp_yanto@yahoo.com"
+        "label": "Pertanyaan Umum",
+        "address": "info@anugerahpancawisesa.com"
       },
       "product": {
-        "label": "Product Inquiry",
-        "address": "psp_starlet@yahoo.com"
+        "label": "Pertanyaan Produk",
+        "address": "product@anugerahpancawisesa.com"
       },
       "technical": {
-        "label": "Technical Support",
-        "address": "okon.suprianto@psp-indo.co.id"
+        "label": "Dukungan Teknis",
+        "address": "technical@anugerahpancawisesa.com"
       }
     },
+    "operatingHours": "Jam Operasional: Senin – Jumat, 08.00 – 17.00 WIB",
     "form": {
-      "title": "Formulir Cepat",
+      "title": "Formulir Kontak Cepat",
       "successMessage": "Terima kasih! Kami akan segera menghubungi Anda.",
       "errorMessage": "Terjadi kesalahan. Silakan coba lagi.",
       "fields": {
         "name": {
-          "label": "Nama Lengkap *",
-          "placeholder": "Nama lengkap Anda"
+          "label": "Nama Lengkap",
+          "placeholder": "Masukkan nama lengkap Anda"
         },
         "email": {
-          "label": "Email *",
-          "placeholder": "email.anda@contoh.com"
+          "label": "Email",
+          "placeholder": "Masukkan alamat email Anda"
         },
         "phone": {
           "label": "Nomor Telepon",
-          "placeholder": "+62-xxx-xxxx-xxxx"
+          "placeholder": "Contoh: +6281234567890"
         },
         "company": {
           "label": "Nama Perusahaan",
-          "placeholder": "Nama perusahaan Anda"
+          "placeholder": "Masukkan nama perusahaan Anda"
         },
         "service": {
-          "label": "Pilih Layanan",
-          "placeholder": "Pilih layanan",
+          "label": "Pilihan Produk/Layanan",
+          "placeholder": "Pilih produk atau layanan",
           "options": {
-            "welding": "Welding Service",
-            "valve": "Valve Repair Service",
-            "products": "Products via APW",
-            "consultation": "Consultation"
+            "welding": "Layanan Pengelasan",
+            "valve": "Layanan Valve",
+            "products": "Produk Industri",
+            "consultation": "Konsultasi Teknis"
           }
         },
         "message": {
-          "label": "Pesan *",
-          "placeholder": "Ceritakan tentang kebutuhan Anda..."
+          "label": "Pesan / Permintaan Penawaran",
+          "placeholder": "Masukkan pesan atau permintaan penawaran Anda"
         }
       },
       "submit": {
         "sending": "Mengirim...",
-        "send": "Kirim Pesan"
+        "send": "Kirim Permintaan"
       },
-      "whatsapp": "WhatsApp",
-      "note": "Kami biasanya merespons dalam 24 jam. Untuk pertanyaan mendesak, silakan hubungi kami langsung melalui WhatsApp atau telepon."
+      "whatsapp": "Chat WhatsApp",
+      "note": "Pesan akan dibalas dalam 1–2 hari kerja oleh tim APW."
+    },
+    "map_title": "Lokasi Kami",
+    "whatsapp_chat": "Chat WhatsApp",
+    "linkedin_page": "Halaman Perusahaan LinkedIn",
+    "cta_text": "Untuk pertanyaan teknis, konsultasi produk, maupun permintaan penawaran, silakan hubungi kami melalui kontak di bawah ini. Tim kami siap memberikan solusi terbaik sesuai kebutuhan industri Anda.",
+    "cta": {
+      "title": "Siap Memulai Proyek Industri Anda?",
+      "description": "Hubungi tim kami hari ini untuk konsultasi teknis dan rekomendasi produk.",
+      "learnMore": "Pelajari Lebih Lanjut",
+      "contactUs": "Hubungi Kami Sekarang"
+    }
+  },
+  "services": {
+    "title": "Layanan",
+    "subtitle": "Layanan Industri Kami",
+    "description": "APW menyediakan layanan industri komprehensif untuk mendukung operasional Anda",
+    "welding": {
+      "title": "Layanan Pengelasan",
+      "subtitle": "Solusi pengelasan profesional",
+      "description": "Layanan pengelasan ahli untuk berbagai aplikasi industri",
+      "methods": "Metode Pengelasan",
+      "materials": "Material",
+      "applications": "Aplikasi",
+      "industries": "Industri",
+      "methodsList": ["SMAW", "GMAW/MAG", "GTAW/TIG", "FCAW"],
+      "materialsList": [
+        "Baja Karbon",
+        "Stainless Steel",
+        "Aluminium",
+        "Baja Paduan"
+      ],
+      "applicationsList": [
+        "Pengelasan Struktural",
+        "Pengelasan Pipa",
+        "Pekerjaan Perbaikan",
+        "Fabrikasi"
+      ],
+      "industriesList": [
+        "Manufaktur",
+        "Minyak & Gas",
+        "Konstruksi",
+        "Pertambangan"
+      ]
+    },
+    "valve": {
+      "title": "Layanan Valve",
+      "subtitle": "Instalasi dan maintenance valve",
+      "description": "Layanan valve lengkap termasuk instalasi, perbaikan, dan maintenance",
+      "process": "Proses",
+      "types": "Jenis Valve",
+      "standards": "Standar",
+      "industries": "Industri",
+      "processList": ["Instalasi", "Perbaikan", "Maintenance", "Testing"],
+      "typesList": ["Gate", "Globe", "Ball", "Check", "Butterfly"],
+      "standardsList": ["API", "ASME", "ANSI", "ISO"],
+      "industriesList": [
+        "Minyak & Gas",
+        "Pembangkit Listrik",
+        "Water Treatment",
+        "Petrochemical"
+      ]
     },
     "cta": {
-      "title": "Siap Kurangi Downtime & Tingkatkan Keandalan Peralatan?",
-      "description": "Jangan tunggu sampai masalah produksi menghambat profit. Hubungi kami sekarang untuk solusi yang cepat, aman, dan berstandar internasional.",
-      "learnMore": "Pelajari Lebih Lanjut",
-      "contactUs": "Hubungi Kami"
+      "title": "Butuh Layanan Profesional?",
+      "description": "Hubungi kami untuk layanan industri ahli yang disesuaikan dengan kebutuhan Anda",
+      "contact": "Hubungi Kami",
+      "viewProducts": "Lihat Produk",
+      "quote": "Dapatkan Penawaran"
+    }
+  },
+  "certificates": {
+    "title": "Sertifikat",
+    "subtitle": "Sertifikasi Kami",
+    "description": "APW menjaga berbagai sertifikasi yang memastikan kualitas dan kepatuhan",
+    "iso9001": {
+      "title": "ISO 9001:2015",
+      "description": "Sertifikasi Sistem Manajemen Mutu"
+    },
+    "iso45001": {
+      "title": "ISO 45001:2018",
+      "description": "Sistem Manajemen Keselamatan dan Kesehatan Kerja"
+    },
+    "sbu": {
+      "title": "Sertifikasi SBU",
+      "description": "Sertifikasi Strategic Business Unit"
+    },
+    "ss": {
+      "title": "Standar SS",
+      "description": "Kepatuhan Standar Keselamatan dan Keamanan"
+    },
+    "viewCertificate": "Lihat Sertifikat",
+    "downloadCertificate": "Unduh Sertifikat",
+    "whyImportant": {
+      "title": "Mengapa Sertifikasi Penting",
+      "description": "Sertifikasi kami memastikan kualitas dan kepatuhan",
+      "quality": {
+        "title": "Jaminan Kualitas",
+        "description": "Memastikan standar kualitas yang konsisten"
+      },
+      "safety": {
+        "title": "Standar Keselamatan",
+        "description": "Memenuhi persyaratan keselamatan dan keamanan"
+      },
+      "competence": {
+        "title": "Kompetensi Profesional",
+        "description": "Menunjukkan keahlian dan kemampuan"
+      }
+    },
+    "modal": {
+      "title": "Detail Sertifikat",
+      "close": "Tutup",
+      "viewPdf": "Lihat PDF",
+      "downloadPdf": "Unduh PDF",
+      "back": "Kembali",
+      "description": "Detail dan informasi sertifikat"
     }
   },
   "footer": {
     "company": {
-      "name": "PT. PHILLIPPE SURYA PRATAMA",
-      "tagline": "Industrial Welding & Valve Services",
-      "description": "Spesialis dalam Layanan Las Industri dan Perbaikan Valve. Layanan las & perbaikan valve terpercaya untuk industri berat – daya tahan yang bertahan lama, keamanan, dan downtime minimal.",
-      "address": "Ruko Villa Taman Bandara Blok N8/15, Dadap, Kosambi, Tangerang",
-      "phone": "+62-21-22556661 (Marketing)",
-      "email": "psp_yanto@yahoo.com"
+      "name": "PT. ANUGERAH PANCA WISESA",
+      "tagline": "Distribusi Produk Industri",
+      "description": "Spesialis dalam Distribusi Produk Industri. Distributor terpercaya untuk consumables pengelasan, mesin las, wear plate, dan valve industri untuk industri berat – kualitas yang bertahan lama, keandalan, dan downtime minimal.",
+      "address": "Jl. Raya Prancis, Ruko Villa Taman Bandara Blok N8/15, Dadap, Kosambi, Tangerang",
+      "phone": "+62-21-22556661",
+      "email": "info@anugerahpancawisesa.com"
+    },
+    "products": {
+      "title": "Produk",
+      "starlet": "Consumables Pengelasan STARLET®",
+      "stararc": "Mesin Las StarArc®",
+      "allostar": "Wear Plate AlloyStar®",
+      "tsv": "Valve Industri TSV®"
     },
     "services": {
       "title": "Layanan",
-      "welding": "Welding Service",
-      "valve": "Valve Repair Service",
-      "products": "Products via APW",
-      "consultation": "Technical Consultation"
+      "welding": "Layanan Pengelasan",
+      "valve": "Layanan Valve",
+      "products": "Produk Industri",
+      "consultation": "Konsultasi Teknis"
     },
     "quickLinks": {
       "title": "Tautan Cepat",
       "about": "Tentang Kami",
-      "clients": "Klien Kami",
-      "contact": "Kontak",
+      "gallery": "Galeri Produk",
+      "clients": "Klien",
+      "contact": "Kontak Kami",
       "products": "Produk"
     },
     "cta": {
-      "title": "Siap Mengurangi Downtime & Meningkatkan Keandalan Peralatan?",
-      "description": "Jangan tunggu sampai masalah produksi menghambat profit. Hubungi kami sekarang untuk solusi yang cepat, aman, dan berstandar internasional.",
+      "title": "Optimalkan Proses Industri Anda dengan Produk Terpercaya dari APW.",
+      "description": "Hubungi tim kami hari ini untuk rekomendasi teknis & penawaran terbaik.",
       "contactUs": "Hubungi Kami",
-      "callNow": "Telepon Sekarang"
+      "callNow": "Download Katalog"
     },
     "copyright": {
-      "text": "PT. Phillippe Surya Pratama. Semua hak dilindungi.",
-      "experience": "Berpengalaman sejak 2010",
-      "specialty": "Spesialis welding & valve repair"
+      "text": "© 2024 PT. Anugerah Panca Wisesa. Semua hak dilindungi.",
+      "experience": "Solusi Industri Terpercaya",
+      "specialty": "Pengelasan, Mesin, Wear Plate & Valve"
     }
   },
   "errors": {
     "404": {
       "title": "Halaman Tidak Ditemukan",
-      "subtitle": "Error 404",
-      "description": "Halaman yang Anda cari tidak ada atau telah dipindahkan.",
-      "message": "Maaf, halaman yang Anda minta tidak dapat ditemukan. Halaman mungkin telah dipindahkan, dihapus, atau URL mungkin salah.",
-      "suggestions": "Berikut beberapa saran:",
-      "suggestion1": "Periksa URL untuk kesalahan ketik",
-      "suggestion2": "Kembali ke halaman sebelumnya",
-      "suggestion3": "Kunjungi halaman beranda kami",
-      "suggestion4": "Hubungi kami untuk bantuan",
+      "subtitle": "Halaman yang Anda cari tidak ada.",
+      "description": "Halaman yang Anda cari tidak ada.",
+      "message": "Maaf, kami tidak dapat menemukan halaman yang Anda cari.",
+      "suggestions": "Berikut beberapa tautan yang dapat membantu:",
+      "suggestion1": "Ke Halaman Utama",
+      "suggestion2": "Jelajahi Produk",
+      "suggestion3": "Hubungi Dukungan",
+      "suggestion4": "Lihat Galeri",
       "backHome": "Kembali ke Beranda",
-      "contactUs": "Hubungi Kami"
+      "contactUs": "Hubungi Kami",
+      "tryAgain": "Coba Lagi"
     },
     "500": {
-      "title": "Kesalahan Server Internal",
-      "subtitle": "Error 500",
-      "description": "Terjadi kesalahan di sisi kami. Kami sedang memperbaikinya.",
-      "message": "Kami mohon maaf atas ketidaknyamanan ini. Tim teknis kami telah diberitahu dan sedang bekerja untuk menyelesaikan masalah ini.",
-      "suggestions": "Sementara itu, Anda dapat:",
-      "suggestion1": "Coba refresh halaman",
-      "suggestion2": "Kembali ke halaman sebelumnya",
-      "suggestion3": "Kunjungi halaman beranda kami",
-      "suggestion4": "Hubungi kami jika masalah berlanjut",
+      "title": "Kesalahan Server",
+      "subtitle": "Terjadi kesalahan di pihak kami.",
+      "description": "Terjadi kesalahan di pihak kami.",
+      "message": "Kami sedang mengalami gangguan teknis. Silakan coba lagi nanti.",
+      "suggestions": "Berikut beberapa tautan yang dapat membantu:",
+      "suggestion1": "Ke Halaman Utama",
+      "suggestion2": "Jelajahi Produk",
+      "suggestion3": "Hubungi Dukungan",
+      "suggestion4": "Lihat Galeri",
       "backHome": "Kembali ke Beranda",
       "contactUs": "Hubungi Kami",
       "tryAgain": "Coba Lagi"

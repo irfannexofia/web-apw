@@ -1,6 +1,6 @@
 {
   "navigation": {
-    "companyName": "PT. PHILLIPPE SURYA PRATAMA",
+    "companyName": "PT. ANUGERAH PANCA WISESA",
     "tagline": "Layanan Las & Valve Industri",
     "home": "Beranda",
     "about": "Tentang",
@@ -24,10 +24,10 @@
     }
   },
   "about": {
-    "badge": "Tentang PSP",
+    "badge": "Tentang APW",
     "title": "Keunggulan dalam Layanan Industri",
     "subtitle": "Dengan pengalaman lebih dari satu dekade, kami telah membangun diri sebagai mitra terpercaya dalam layanan las industri dan perbaikan valve.",
-    "description": "PT. Phillippe Surya Pratama telah melayani industri berat sejak 2010, menyediakan solusi las dan perbaikan valve yang andal yang memenuhi standar internasional.",
+    "description": "PT. Anugerah Panca Wisesa telah melayani industri berat sejak 2010, menyediakan solusi las dan perbaikan valve yang andal yang memenuhi standar internasional.",
     "values": {
       "quality": {
         "title": "Keunggulan Kualitas",
@@ -182,7 +182,7 @@
     "info": {
       "address": "Ruko Villa Taman Bandara Blok N8/15, Dadap, Kosambi, Tangerang",
       "phone": "+62-21-22556661 (Marketing)",
-      "email": "psp_yanto@yahoo.com",
+      "email": "info@anugerahpancawisesa.com",
       "hours": "Sen-Jum: 08:00 - 17:00"
     }
   },
@@ -208,7 +208,7 @@
       "contactUs": "Hubungi Kami",
       "callNow": "Telepon Sekarang"
     },
-    "copyright": "PT. PHILLIPPE SURYA PRATAMA. Semua hak dilindungi.",
+    "copyright": "PT. ANUGERAH PANCA WISESA. Semua hak dilindungi.",
     "tagline": {
       "left": "Dipercaya sejak 2010",
       "right": "Spesialis las & perbaikan valve"

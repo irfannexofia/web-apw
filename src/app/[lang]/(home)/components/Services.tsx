@@ -151,7 +151,7 @@ const Services = ({ dictionary }: ServicesProps) => {
                   {weldingApplications.map((app, index) => (
                     <span
                       key={index}
-                      className="px-3 py-1 bg-psp-gold/20 text-psp-gold rounded-full text-sm"
+                      className="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm"
                     >
                       {app}
                     </span>
@@ -192,9 +192,9 @@ const Services = ({ dictionary }: ServicesProps) => {
           </div>
 
           {/* Valve Repair Service */}
-          <div className="bg-gray-900 border-2 border-psp-gold/20 rounded-2xl p-8 hover:border-psp-gold/40 transition-all duration-500 group">
+          <div className="bg-gray-900 border-2 border-primary/20 rounded-2xl p-8 hover:border-primary/40 transition-all duration-500 group">
             <div className="flex items-center mb-6">
-              <div className="w-20 h-20 bg-psp-gold rounded-xl flex items-center justify-center mr-6 group-hover:scale-110 transition-transform duration-300">
+              <div className="w-20 h-20 bg-primary rounded-xl flex items-center justify-center mr-6 group-hover:scale-110 transition-transform duration-300">
                 <IconifyIcon
                   icon="lucide:settings-2"
                   className="w-10 h-10 text-white"
@@ -204,7 +204,7 @@ const Services = ({ dictionary }: ServicesProps) => {
                 <h3 className="text-2xl font-bold text-white">
                   {dictionary.services.valve.title}
                 </h3>
-                <p className="text-sm text-psp-gold">
+                <p className="text-sm text-primary">
                   {dictionary.services.valve.subtitle}
                 </p>
               </div>
@@ -219,7 +219,7 @@ const Services = ({ dictionary }: ServicesProps) => {
                 <h4 className="font-semibold text-white mb-2 flex items-center">
                   <IconifyIcon
                     icon="lucide:list"
-                    className="w-4 h-4 mr-2 text-psp-gold"
+                    className="w-4 h-4 mr-2 text-primary"
                   />
                   {dictionary.services.valve.process}:
                 </h4>
@@ -228,7 +228,7 @@ const Services = ({ dictionary }: ServicesProps) => {
                     <div key={index} className="flex items-center">
                       <IconifyIcon
                         icon="lucide:check"
-                        className="w-4 h-4 text-psp-gold mr-2 flex-shrink-0"
+                        className="w-4 h-4 text-primary mr-2 flex-shrink-0"
                       />
                       <span className="text-sm text-gray-300">{step}</span>
                     </div>
@@ -240,7 +240,7 @@ const Services = ({ dictionary }: ServicesProps) => {
                 <h4 className="font-semibold text-white mb-2 flex items-center">
                   <IconifyIcon
                     icon="lucide:layers"
-                    className="w-4 h-4 mr-2 text-psp-gold"
+                    className="w-4 h-4 mr-2 text-primary"
                   />
                   {dictionary.services.valve.types}:
                 </h4>
@@ -248,7 +248,7 @@ const Services = ({ dictionary }: ServicesProps) => {
                   {valveTypes.map((type, index) => (
                     <span
                       key={index}
-                      className="px-3 py-1 bg-psp-gold/20 text-psp-gold rounded-full text-sm"
+                      className="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm"
                     >
                       {type}
                     </span>
@@ -260,7 +260,7 @@ const Services = ({ dictionary }: ServicesProps) => {
                 <h4 className="font-semibold text-white mb-2 flex items-center">
                   <IconifyIcon
                     icon="lucide:award"
-                    className="w-4 h-4 mr-2 text-psp-gold"
+                    className="w-4 h-4 mr-2 text-primary"
                   />
                   {dictionary.services.valve.standards}:
                 </h4>
@@ -280,7 +280,7 @@ const Services = ({ dictionary }: ServicesProps) => {
                 <h4 className="font-semibold text-white mb-2 flex items-center">
                   <IconifyIcon
                     icon="lucide:building"
-                    className="w-4 h-4 mr-2 text-psp-gold"
+                    className="w-4 h-4 mr-2 text-primary"
                   />
                   {dictionary.services.valve.industries}:
                 </h4>
@@ -311,7 +311,7 @@ const Services = ({ dictionary }: ServicesProps) => {
 
         {/* Bottom CTA */}
         <div className="text-center">
-          <div className="bg-gradient-to-r from-primary to-psp-gold rounded-2xl p-8 text-white">
+          <div className="bg-gradient-to-r from-primary to-apw-mid-gray rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">
               {dictionary.services.cta.title}
             </h3>
