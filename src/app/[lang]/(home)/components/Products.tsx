@@ -128,7 +128,7 @@ const Products = ({ dictionary }: ProductsProps) => {
   return (
     <section
       id="products"
-      className="top bg-gradient-to-br from-gray-50 via-white to-apw-gradient-start/5"
+      className="py-20 top bg-gradient-to-br from-gray-50 via-white to-apw-gradient-start/5"
     >
       <div className="container mx-auto px-4">
         {/* Header */}
