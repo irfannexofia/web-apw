@@ -61,6 +61,7 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
       description: dictionary.products.starlet.description,
       features: dictionary.products.starlet.features,
       heroImage: "/assets/products/starlet_collage.png",
+      logo: "/assets/products/logo/products-starlet-logo.webp",
       gallery: [
         {
           src: "/assets/products/starlet_electrodes.png",
@@ -150,6 +151,7 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
       description: dictionary.products.stararc.description,
       features: dictionary.products.stararc.features,
       heroImage: "/assets/products/stararc_collage.png",
+      logo: "/assets/products/logo/products-stararc-logo.webp",
       gallery: [
         {
           src: "/assets/products/stararc_lineup.png",
@@ -283,6 +285,7 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
       description: dictionary.products.allostar.description,
       features: dictionary.products.allostar.features,
       heroImage: "/assets/products/alloystar_collage.png",
+      logo: "/assets/products/logo/products-allostar-logo.webp",
       gallery: [
         {
           src: "/assets/products/alloystar_bucket.png",
@@ -333,6 +336,7 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
       description: dictionary.products.tsv.description,
       features: dictionary.products.tsv.features,
       heroImage: "/assets/products/tsv_collage.png",
+      logo: "/assets/products/logo/products-tsv-logo.webp",
       gallery: [
         { src: "/assets/products/tsv_gatevalve.png", alt: "TSV Gate Valve" },
         { src: "/assets/products/tsv_ballvalve.png", alt: "TSV Ball Valve" },
@@ -442,9 +446,19 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
             <div className="inline-flex items-center px-4 py-2 rounded-lg bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-6">
               {product.type}
             </div>
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              {product.name}
-            </h1>
+            <div className="flex items-center mb-4">
+              <div className="relative w-20 h-20 mr-4 flex-shrink-0">
+                <Image
+                  src={product.logo}
+                  alt={`${product.name} Logo`}
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h1 className="text-4xl font-bold text-gray-900">
+                {product.name}
+              </h1>
+            </div>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
               {product.description}
             </p>
