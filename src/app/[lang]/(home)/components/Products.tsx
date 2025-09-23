@@ -94,6 +94,7 @@ const Products = ({ dictionary }: ProductsProps) => {
       description: dictionary.products.starlet.description,
       features: dictionary.products.starlet.features,
       image: "/assets/apw/produk_starlet.webp",
+      logo: "/assets/products/logo/products-starlet-logo.webp",
       color: "primary",
     },
     {
@@ -103,6 +104,7 @@ const Products = ({ dictionary }: ProductsProps) => {
       description: dictionary.products.stararc.description,
       features: dictionary.products.stararc.features,
       image: "/assets/apw/produk_starc.webp",
+      logo: "/assets/products/logo/products-stararc-logo.webp",
       color: "apw-mid-gray",
     },
     {
@@ -112,6 +114,7 @@ const Products = ({ dictionary }: ProductsProps) => {
       description: dictionary.products.allostar.description,
       features: dictionary.products.allostar.features,
       image: "/assets/apw/produk_allostar.webp",
+      logo: "/assets/products/logo/products-allostar-logo.webp",
       color: "apw-gray-chateau",
     },
     {
@@ -121,6 +124,7 @@ const Products = ({ dictionary }: ProductsProps) => {
       description: dictionary.products.tsv.description,
       features: dictionary.products.tsv.features,
       image: "/assets/apw/produk_tsv.webp",
+      logo: "/assets/products/logo/products-tsv-logo.webp",
       color: "apw-mid-gray",
     },
   ];
@@ -216,9 +220,19 @@ const Products = ({ dictionary }: ProductsProps) => {
                     <div className="inline-flex items-center px-4 py-2 rounded-lg bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-4">
                       {product.type}
                     </div>
-                    <h3 className="text-3xl font-bold text-gray-900 mb-3">
-                      {product.name}
-                    </h3>
+                    <div className="flex items-center mb-3">
+                      <div className="relative w-16 h-16 mr-4 flex-shrink-0">
+                        <Image
+                          src={product.logo}
+                          alt={`${product.name} Logo`}
+                          fill
+                          className="object-contain"
+                        />
+                      </div>
+                      <h3 className="text-3xl font-bold text-gray-900">
+                        {product.name}
+                      </h3>
+                    </div>
                     <p className="text-lg text-gray-700 leading-relaxed">
                       {product.description}
                     </p>
