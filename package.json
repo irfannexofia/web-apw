@@ -10,15 +10,16 @@
     "lint": "next lint",
     "serve": "npx serve out",
     "preview": "npm run build:multilang && npm run serve",
-    "deploy:dev": "./scripts/deploy-dev-simple.sh",
-    "deploy": "npm run build:multilang && npm run deploy:dev"
+    "deploy": "cd nginx-config && ./deploy-nginx.sh"
   },
   "dependencies": {
     "@frostui/tailwindcss": "^0.1.5",
     "@googlemaps/js-api-loader": "^1.16.10",
     "@iconify/react": "^5.0.2",
     "@tailwindcss/forms": "^0.5.9",
+    "@types/react-modal": "^3.16.3",
     "clsx": "^2.1.1",
+    "framer-motion": "^12.23.21",
     "gumshoejs": "^5.1.2",
     "next": "15.0.3",
     "npx": "^10.2.2",
@@ -31,6 +32,7 @@
     "react-countup": "^6.5.3",
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "react-icons": "^5.3.0",
+    "react-modal": "^3.16.3",
     "react-pdf": "^10.1.0",
     "react-router-dom": "^6.28.0",
     "sass": "^1.80.7",

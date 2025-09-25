@@ -1,9 +1,11 @@
 "use client";
 
+import GalleryModal from "@/components/GalleryModal";
 import IconifyIcon from "@/components/wrappers/IconifyIcon";
 import Image from "next/image";
 import Link from "next/link";
 import { useParams } from "next/navigation";
+import { useState } from "react";
 
 interface Dictionary {
   products: {
@@ -53,6 +55,10 @@ interface ProductDetailProps {
 const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
   const params = useParams();
   const currentLang = params.lang as string;
+
+  // Gallery modal state
+  const [isGalleryOpen, setIsGalleryOpen] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
   // Product data mapping
   const productData = {
     starlet: {
@@ -64,20 +70,24 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
       logo: "/assets/products/logo/products-starlet-logo.webp",
       gallery: [
         {
-          src: "/assets/products/starlet_electrodes.png",
-          alt: "STARLET Welding Electrodes",
+          src: "/assets/products/gallery/starlet/1.webp",
+          alt: "STARLET Welding Consumables Gallery 1",
         },
         {
-          src: "/assets/products/starlet_solidwires.png",
-          alt: "STARLET Solid Wires",
+          src: "/assets/products/gallery/starlet/2.webp",
+          alt: "STARLET Welding Consumables Gallery 2",
         },
         {
-          src: "/assets/products/starlet_fluxcored.png",
-          alt: "STARLET Flux-Cored Wires",
+          src: "/assets/products/gallery/starlet/3.webp",
+          alt: "STARLET Welding Consumables Gallery 3",
         },
         {
-          src: "/assets/products/starlet_tigrods.png",
-          alt: "STARLET TIG Filler Rods",
+          src: "/assets/products/gallery/starlet/4.webp",
+          alt: "STARLET Welding Consumables Gallery 4",
+        },
+        {
+          src: "/assets/products/gallery/starlet/5.webp",
+          alt: "STARLET Welding Consumables Gallery 5",
         },
       ],
       variants: [
@@ -154,22 +164,28 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
       logo: "/assets/products/logo/products-stararc-logo.webp",
       gallery: [
         {
-          src: "/assets/products/stararc_lineup.png",
-          alt: "StarArc Welding Machines Lineup",
-        },
-        { src: "/assets/products/stararc_mma.png", alt: "StarArc MMA Machine" },
-        { src: "/assets/products/stararc_tig.png", alt: "StarArc TIG Welding" },
-        {
-          src: "/assets/products/stararc_mig.png",
-          alt: "StarArc MIG/MAG Machine",
+          src: "/assets/products/gallery/stararc/1.webp",
+          alt: "StarArc Welding Machines Gallery 1",
         },
         {
-          src: "/assets/products/stararc_saw.png",
-          alt: "StarArc Submerged Arc Welding",
+          src: "/assets/products/gallery/stararc/2.webp",
+          alt: "StarArc Welding Machines Gallery 2",
         },
         {
-          src: "/assets/products/stararc_plasma.png",
-          alt: "StarArc Plasma Cutting",
+          src: "/assets/products/gallery/stararc/3.webp",
+          alt: "StarArc Welding Machines Gallery 3",
+        },
+        {
+          src: "/assets/products/gallery/stararc/4.webp",
+          alt: "StarArc Welding Machines Gallery 4",
+        },
+        {
+          src: "/assets/products/gallery/stararc/5.webp",
+          alt: "StarArc Welding Machines Gallery 5",
+        },
+        {
+          src: "/assets/products/gallery/stararc/6.webp",
+          alt: "StarArc Welding Machines Gallery 6",
         },
       ],
       variants: [
@@ -288,20 +304,44 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
       logo: "/assets/products/logo/products-allostar-logo.webp",
       gallery: [
         {
-          src: "/assets/products/alloystar_bucket.png",
-          alt: "AlloyStar Bucket Application",
+          src: "/assets/products/gallery/allostar/1.webp",
+          alt: "AlloyStar Wear Plate Gallery 1",
         },
         {
-          src: "/assets/products/alloystar_cementchute.png",
-          alt: "AlloyStar Cement Chute",
+          src: "/assets/products/gallery/allostar/2.webp",
+          alt: "AlloyStar Wear Plate Gallery 2",
         },
         {
-          src: "/assets/products/alloystar_crusher.png",
-          alt: "AlloyStar Crusher Application",
+          src: "/assets/products/gallery/allostar/3.webp",
+          alt: "AlloyStar Wear Plate Gallery 3",
         },
         {
-          src: "/assets/products/alloystar_warehouse.png",
-          alt: "AlloyStar Warehouse",
+          src: "/assets/products/gallery/allostar/4.webp",
+          alt: "AlloyStar Wear Plate Gallery 4",
+        },
+        {
+          src: "/assets/products/gallery/allostar/5.webp",
+          alt: "AlloyStar Wear Plate Gallery 5",
+        },
+        {
+          src: "/assets/products/gallery/allostar/6.webp",
+          alt: "AlloyStar Wear Plate Gallery 6",
+        },
+        {
+          src: "/assets/products/gallery/allostar/7.webp",
+          alt: "AlloyStar Wear Plate Gallery 7",
+        },
+        {
+          src: "/assets/products/gallery/allostar/8.webp",
+          alt: "AlloyStar Wear Plate Gallery 8",
+        },
+        {
+          src: "/assets/products/gallery/allostar/9.webp",
+          alt: "AlloyStar Wear Plate Gallery 9",
+        },
+        {
+          src: "/assets/products/gallery/allostar/10.webp",
+          alt: "AlloyStar Wear Plate Gallery 10",
         },
       ],
       variants: [
@@ -675,20 +715,39 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
             {product.gallery.map((image, index) => (
               <div
                 key={index}
-                className="bg-white border-2 border-primary/10 rounded-xl p-4 shadow-lg"
+                className="bg-white border-2 border-primary/10 rounded-xl p-4 shadow-lg cursor-pointer hover:shadow-xl transition-all duration-300 group"
+                onClick={() => {
+                  setCurrentImageIndex(index);
+                  setIsGalleryOpen(true);
+                }}
               >
                 <div className="relative h-48 rounded-lg overflow-hidden">
                   <Image
                     src={image.src}
                     alt={image.alt}
                     fill
-                    className="object-cover"
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
                   />
+                  <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center">
+                    <IconifyIcon
+                      icon="lucide:zoom-in"
+                      className="w-8 h-8 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    />
+                  </div>
                 </div>
               </div>
             ))}
           </div>
         </div>
+
+        {/* Gallery Modal */}
+        <GalleryModal
+          isOpen={isGalleryOpen}
+          onClose={() => setIsGalleryOpen(false)}
+          images={product.gallery}
+          currentIndex={currentImageIndex}
+          onIndexChange={setCurrentImageIndex}
+        />
 
         {/* Back to Products */}
         <div className="text-center">
