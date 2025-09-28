@@ -10,6 +10,8 @@ interface Dictionary {
       address: string;
       phone: string;
       email: string;
+      whatsapp1: string;
+      whatsapp2: string;
     };
     products: {
       title: string;
@@ -100,18 +102,48 @@ const Footer = ({ dictionary }: FooterProps) => {
                     icon="lucide:phone"
                     className="w-5 h-5 text-white mr-3"
                   />
-                  <span className="text-white/90 text-sm">
+                  <a
+                    href={`tel:${dictionary.footer.company.phone}`}
+                    className="text-white/90 text-sm hover:text-white transition-colors"
+                  >
                     {dictionary.footer.company.phone}
-                  </span>
+                  </a>
                 </div>
                 <div className="flex items-center">
                   <IconifyIcon
                     icon="lucide:mail"
                     className="w-5 h-5 text-white mr-3"
                   />
-                  <span className="text-white/90 text-sm">
+                  <a
+                    href={`mailto:${dictionary.footer.company.email}`}
+                    className="text-white/90 text-sm hover:text-white transition-colors"
+                  >
                     {dictionary.footer.company.email}
-                  </span>
+                  </a>
+                </div>
+                <div className="flex items-center">
+                  <IconifyIcon
+                    icon="logos:whatsapp-icon"
+                    className="w-5 h-5 text-green-400 mr-3"
+                  />
+                  <div className="flex flex-col">
+                    <a
+                      href={`https://wa.me/${dictionary.footer.company.whatsapp1.replace(/\D/g, "")}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white/90 text-sm hover:text-green-400 transition-colors"
+                    >
+                      {dictionary.footer.company.whatsapp1}
+                    </a>
+                    <a
+                      href={`https://wa.me/${dictionary.footer.company.whatsapp2.replace(/\D/g, "")}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white/90 text-sm hover:text-green-400 transition-colors"
+                    >
+                      {dictionary.footer.company.whatsapp2}
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

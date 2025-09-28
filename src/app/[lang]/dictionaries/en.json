@@ -327,38 +327,38 @@
       "title": "Phone",
       "marketing": {
         "label": "Marketing",
-        "number": "+62-21-22556661 (ext. Marketing)"
+        "number": "021 22556660"
       },
       "direct": {
         "label": "Direct Line",
-        "number": "+62-21-22556661"
+        "number": "021 22556660"
       },
       "purchasing": {
         "label": "Purchasing",
-        "number": "+62-21-22556662 (ext. Purchasing Dept.)"
+        "number": "021 22556660"
       },
       "financial": {
         "label": "Finance",
-        "number": "+62-21-22556663 (ext. Finance Dept.)"
+        "number": "021 22556660"
       },
       "fax": {
         "label": "Fax",
-        "number": "+62-21-22556660"
+        "number": "021 22556660"
       }
     },
     "email": {
       "title": "Email",
       "general": {
         "label": "General Inquiry",
-        "address": "info@anugerahpancawisesa.com"
+        "address": "anugerahpancawisesa@gmail.com"
       },
       "product": {
         "label": "Product Inquiry",
-        "address": "product@anugerahpancawisesa.com"
+        "address": "anugerahpancawisesa@gmail.com"
       },
       "technical": {
         "label": "Technical Support",
-        "address": "technical@anugerahpancawisesa.com"
+        "address": "anugerahpancawisesa@gmail.com"
       }
     },
     "operatingHours": "Operating Hours: Monday – Friday, 08.00 – 17.00 WIB",
@@ -522,8 +522,10 @@
       "tagline": "Industrial Product Distribution",
       "description": "Specialist in Industrial Product Distribution. Trusted distributor of welding consumables, welding machines, wear plates, and industrial valves for heavy industries – enduring quality, reliability, and minimal downtime.",
       "address": "Jl. Raya Prancis, Ruko Villa Taman Bandara Blok N8/15, Dadap, Kosambi, Tangerang",
-      "phone": "+62-21-22556661",
-      "email": "info@anugerahpancawisesa.com"
+      "phone": "021 22556660",
+      "email": "anugerahpancawisesa@gmail.com",
+      "whatsapp1": "087888505087",
+      "whatsapp2": "081806791476"
     },
     "products": {
       "title": "Products",

@@ -152,39 +152,13 @@ const Contact = ({ dictionary }: ContactProps) => {
     }, 2000);
   };
 
-  const phoneNumbers = [
-    {
-      label: dictionary.contact.phone.marketing.label,
-      number: dictionary.contact.phone.marketing.number,
-    },
-    {
-      label: dictionary.contact.phone.purchasing.label,
-      number: dictionary.contact.phone.purchasing.number,
-    },
-    {
-      label: dictionary.contact.phone.financial.label,
-      number: dictionary.contact.phone.financial.number,
-    },
-    {
-      label: dictionary.contact.phone.fax.label,
-      number: dictionary.contact.phone.fax.number,
-    },
-  ];
-
-  const emailAddresses = [
-    {
-      address: dictionary.contact.email.general.address,
-      label: dictionary.contact.email.general.label,
-    },
-    {
-      address: dictionary.contact.email.product.address,
-      label: dictionary.contact.email.product.label,
-    },
-    {
-      address: dictionary.contact.email.technical.address,
-      label: dictionary.contact.email.technical.label,
-    },
-  ];
+  // Simplified contact data
+  const contactInfo = {
+    phone: "021 22556660",
+    email: "anugerahpancawisesa@gmail.com",
+    whatsapp1: "087888505087",
+    whatsapp2: "081806791476",
+  };
 
   const services = [
     dictionary.contact.form.fields.service.options.welding,
@@ -298,35 +272,37 @@ const Contact = ({ dictionary }: ContactProps) => {
             </div>
             <div className="space-y-4">
               <a
-                href="tel:+622122556661"
-                className="flex items-center p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-colors group"
+                href={`tel:${contactInfo.phone.replace(/\s/g, "")}`}
+                className="flex items-center p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors group"
               >
                 <IconifyIcon
                   icon="lucide:phone"
-                  className="w-5 h-5 text-green-600 mr-3"
+                  className="w-5 h-5 text-blue-600 mr-3"
                 />
                 <div>
-                  <div className="font-semibold text-gray-900 group-hover:text-green-600">
-                    Marketing
+                  <div className="font-semibold text-gray-900 group-hover:text-blue-600">
+                    Phone
                   </div>
-                  <div className="text-sm text-gray-600">+62-21-22556661</div>
+                  <div className="text-sm text-gray-600">
+                    {contactInfo.phone}
+                  </div>
                 </div>
               </a>
               <a
-                href="https://wa.me/622122556661"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-colors group"
+                href={`mailto:${contactInfo.email}`}
+                className="flex items-center p-4 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors group"
               >
                 <IconifyIcon
-                  icon="lucide:message-circle"
-                  className="w-5 h-5 text-green-600 mr-3"
+                  icon="lucide:mail"
+                  className="w-5 h-5 text-primary mr-3"
                 />
                 <div>
-                  <div className="font-semibold text-gray-900 group-hover:text-green-600">
-                    WhatsApp
+                  <div className="font-semibold text-gray-900 group-hover:text-primary">
+                    Email
                   </div>
-                  <div className="text-sm text-gray-600">Quick Response</div>
+                  <div className="text-sm text-gray-600">
+                    {contactInfo.email}
+                  </div>
                 </div>
               </a>
             </div>
@@ -379,108 +355,126 @@ const Contact = ({ dictionary }: ContactProps) => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div className="space-y-8">
-            {/* Phone Numbers */}
-            <div>
+            {/* Simplified Contact Info */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                {dictionary.contact.phone.title}
+                Contact Information
               </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {phoneNumbers.map((phone, index) => (
-                  <div
-                    key={index}
-                    className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow"
-                  >
-                    <div className="flex items-center mb-3">
-                      <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mr-3">
+              <div className="space-y-6">
+                {/* Phone */}
+                <div className="flex items-center p-4 bg-blue-50 rounded-lg">
+                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                    <IconifyIcon
+                      icon="lucide:phone"
+                      className="w-6 h-6 text-blue-600"
+                    />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900">Phone</h4>
+                    <a
+                      href={`tel:${contactInfo.phone.replace(/\s/g, "")}`}
+                      className="text-blue-600 hover:text-blue-700 transition-colors font-medium"
+                    >
+                      {contactInfo.phone}
+                    </a>
+                  </div>
+                </div>
+
+                {/* Email */}
+                <div className="flex items-center p-4 bg-primary/10 rounded-lg">
+                  <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mr-4">
+                    <IconifyIcon
+                      icon="lucide:mail"
+                      className="w-6 h-6 text-primary"
+                    />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900">Email</h4>
+                    <a
+                      href={`mailto:${contactInfo.email}`}
+                      className="text-primary hover:text-primaryDark transition-colors font-medium"
+                    >
+                      {contactInfo.email}
+                    </a>
+                  </div>
+                </div>
+
+                {/* WhatsApp */}
+                <div className="space-y-3">
+                  <h4 className="font-semibold text-gray-900">WhatsApp</h4>
+                  <div className="grid grid-cols-1 gap-3">
+                    <a
+                      href={`https://wa.me/62${contactInfo.whatsapp1}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-colors group"
+                    >
+                      <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mr-4">
                         <IconifyIcon
-                          icon="lucide:phone"
-                          className="w-5 h-5 text-primary"
+                          icon="logos:whatsapp-icon"
+                          className="w-5 h-5 text-green-600"
                         />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-gray-900">
-                          {phone.label}
-                        </h4>
+                        <div className="font-medium text-gray-900 group-hover:text-green-600">
+                          WhatsApp 1
+                        </div>
+                        <div className="text-sm text-green-600">
+                          {contactInfo.whatsapp1}
+                        </div>
                       </div>
-                    </div>
-                    <a
-                      href={`tel:${phone.number.replace(/[^\d+]/g, "")}`}
-                      className="text-primary hover:text-primaryDark transition-colors font-medium"
-                    >
-                      {phone.number}
                     </a>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Email */}
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                {dictionary.contact.email.title}
-              </h3>
-              <div className="space-y-4">
-                {emailAddresses.map((email, index) => (
-                  <div
-                    key={index}
-                    className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow"
-                  >
-                    <div className="flex items-center mb-3">
-                      <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mr-3">
+                    <a
+                      href={`https://wa.me/62${contactInfo.whatsapp2}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-colors group"
+                    >
+                      <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mr-4">
                         <IconifyIcon
-                          icon="lucide:mail"
-                          className="w-5 h-5 text-primary"
+                          icon="logos:whatsapp-icon"
+                          className="w-5 h-5 text-green-600"
                         />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-gray-900">
-                          {email.label}
-                        </h4>
+                        <div className="font-medium text-gray-900 group-hover:text-green-600">
+                          WhatsApp 2
+                        </div>
+                        <div className="text-sm text-green-600">
+                          {contactInfo.whatsapp2}
+                        </div>
                       </div>
-                    </div>
-                    <a
-                      href={`mailto:${email.address}`}
-                      className="text-primary hover:text-primaryDark transition-colors font-medium"
-                    >
-                      {email.address}
                     </a>
                   </div>
-                ))}
+                </div>
               </div>
             </div>
 
-            {/* Additional Contact Options */}
+            {/* Quick Actions */}
             <div className="bg-gradient-to-r from-primary to-apw-mid-gray rounded-2xl p-8 text-white">
-              <h3 className="text-2xl font-bold mb-6">Get in Touch</h3>
+              <h3 className="text-2xl font-bold mb-6">Quick Contact</h3>
               <p className="text-white/90 mb-6">
-                For technical inquiries, product consultation, or quotation
-                requests, our team is ready to provide the best solutions
-                tailored to your industrial needs.
+                For immediate assistance, use WhatsApp for fastest response.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="https://wa.me/622122556661"
+                  href={`https://wa.me/62${contactInfo.whatsapp1}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg transition-colors"
                 >
                   <IconifyIcon
-                    icon="lucide:message-circle"
+                    icon="logos:whatsapp-icon"
                     className="w-5 h-5 mr-2"
                   />
                   WhatsApp Chat
                 </a>
                 <a
-                  href="https://linkedin.com/company/pt-anugerah-panca-wisesa"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={`mailto:${contactInfo.email}`}
                   className="inline-flex items-center px-6 py-3 border-2 border-white text-white hover:bg-white hover:text-primary font-semibold rounded-lg transition-colors"
                 >
-                  <IconifyIcon
-                    icon="lucide:linkedin"
-                    className="w-5 h-5 mr-2"
-                  />
-                  LinkedIn
+                  <IconifyIcon icon="lucide:mail" className="w-5 h-5 mr-2" />
+                  Send Email
                 </a>
               </div>
             </div>
@@ -667,13 +661,13 @@ const Contact = ({ dictionary }: ContactProps) => {
                   </button>
 
                   <a
-                    href="https://wa.me/622192112111"
+                    href={`https://wa.me/62${contactInfo.whatsapp1}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1 px-8 py-4 border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-white font-semibold rounded-lg transition-all duration-300 text-center flex items-center justify-center"
                   >
                     <IconifyIcon
-                      icon="lucide:message-circle"
+                      icon="logos:whatsapp-icon"
                       className="w-5 h-5 mr-2"
                     />
                     {dictionary.contact.form.whatsapp}

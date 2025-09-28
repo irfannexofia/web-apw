@@ -327,38 +327,38 @@
       "title": "Telepon",
       "marketing": {
         "label": "Marketing",
-        "number": "+62-21-22556661 (ext. Marketing)"
+        "number": "021 22556660"
       },
       "direct": {
         "label": "Direct Line",
-        "number": "+62-21-22556661"
+        "number": "021 22556660"
       },
       "purchasing": {
         "label": "Purchasing",
-        "number": "+62-21-22556662 (ext. Purchasing Dept.)"
+        "number": "021 22556660"
       },
       "financial": {
         "label": "Finance",
-        "number": "+62-21-22556663 (ext. Finance Dept.)"
+        "number": "021 22556660"
       },
       "fax": {
         "label": "Fax",
-        "number": "+62-21-22556660"
+        "number": "021 22556660"
       }
     },
     "email": {
       "title": "Email",
       "general": {
         "label": "Pertanyaan Umum",
-        "address": "info@anugerahpancawisesa.com"
+        "address": "anugerahpancawisesa@gmail.com"
       },
       "product": {
         "label": "Pertanyaan Produk",
-        "address": "product@anugerahpancawisesa.com"
+        "address": "anugerahpancawisesa@gmail.com"
       },
       "technical": {
         "label": "Dukungan Teknis",
-        "address": "technical@anugerahpancawisesa.com"
+        "address": "anugerahpancawisesa@gmail.com"
       }
     },
     "operatingHours": "Jam Operasional: Senin – Jumat, 08.00 – 17.00 WIB",
@@ -527,8 +527,10 @@
       "tagline": "Distribusi Produk Industri",
       "description": "Spesialis dalam Distribusi Produk Industri. Distributor terpercaya untuk consumables pengelasan, mesin las, wear plate, dan valve industri untuk industri berat – kualitas yang bertahan lama, keandalan, dan downtime minimal.",
       "address": "Jl. Raya Prancis, Ruko Villa Taman Bandara Blok N8/15, Dadap, Kosambi, Tangerang",
-      "phone": "+62-21-22556661",
-      "email": "info@anugerahpancawisesa.com"
+      "phone": "021 22556660",
+      "email": "anugerahpancawisesa@gmail.com",
+      "whatsapp1": "087888505087",
+      "whatsapp2": "081806791476"
     },
     "products": {
       "title": "Produk",

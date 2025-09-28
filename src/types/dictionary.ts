@@ -394,6 +394,8 @@ export interface Dictionary {
       address: string;
       phone: string;
       email: string;
+      whatsapp1: string;
+      whatsapp2: string;
     };
     services: {
       title: string;
