@@ -66,7 +66,7 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
       type: dictionary.products.starlet.type,
       description: dictionary.products.starlet.description,
       features: dictionary.products.starlet.features,
-      heroImage: "/assets/products/starlet_collage.png",
+      heroImage: "/assets/products/gallery/starlet/1.webp",
       logo: "/assets/products/logo/products-starlet-logo.webp",
       gallery: [
         {
@@ -160,7 +160,7 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
       type: dictionary.products.stararc.type,
       description: dictionary.products.stararc.description,
       features: dictionary.products.stararc.features,
-      heroImage: "/assets/products/stararc_collage.png",
+      heroImage: "/assets/products/gallery/stararc/1.webp",
       logo: "/assets/products/logo/products-stararc-logo.webp",
       gallery: [
         {
@@ -300,7 +300,7 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
       type: dictionary.products.allostar.type,
       description: dictionary.products.allostar.description,
       features: dictionary.products.allostar.features,
-      heroImage: "/assets/products/alloystar_collage.png",
+      heroImage: "/assets/products/gallery/allostar/1.webp",
       logo: "/assets/products/logo/products-allostar-logo.webp",
       gallery: [
         {
@@ -346,19 +346,37 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
       ],
       variants: [
         {
-          category: "AlloyStar Wear Plate Grades",
+          category: "CCO Wear Resistance Plate",
           products: [
             {
-              name: "AS-60",
-              description: "Standard wear protection",
-              specs: "60 HRC hardness",
-              standard: "ASTM A514",
+              name: "AlloyStar® 107AS",
+              description: "High Abrasion & Moderate Impact",
+              specs: "All weldable steels, mostly structural steels",
+              standard: "58 – 62 HRC",
             },
             {
-              name: "AS-80",
-              description: "High-performance wear protection",
-              specs: "80 HRC hardness",
-              standard: "ASTM A514",
+              name: "AlloyStar® 307AS",
+              description: "Tough Abrasion & High Impact",
+              specs: "All weldable steels, mostly structural steels",
+              standard: "58 – 64 HRC",
+            },
+            {
+              name: "AlloyStar® 607AS",
+              description:
+                "Tough Abrasion & Moderate Impact & Working Temperature up to 850°C",
+              specs: "All weldable steels, mostly structural steels",
+              standard: "58 – 65 HRC",
+            },
+          ],
+        },
+        {
+          category: "Smooth Wear Plate",
+          products: [
+            {
+              name: "AlloyStar® 688AS",
+              description: "Tough Abrasion & High Impact",
+              specs: "All weldable steels, mostly structural steels",
+              standard: "58 – 64 HRC",
             },
           ],
         },

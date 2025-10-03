@@ -140,7 +140,7 @@ const Hero = ({ dictionary }: HeroProps) => {
                   </div>
                   <div className="relative h-20 rounded-lg overflow-hidden">
                     <Image
-                      src="/assets/apw/produk_starlet.webp"
+                      src="/assets/products/gallery/starlet/1.webp"
                       alt="STARLET Welding Consumables"
                       fill
                       className="object-cover"
@@ -166,7 +166,7 @@ const Hero = ({ dictionary }: HeroProps) => {
                   </div>
                   <div className="relative h-20 rounded-lg overflow-hidden">
                     <Image
-                      src="/assets/apw/produk_starc.webp"
+                      src="/assets/products/gallery/stararc/1.webp"
                       alt="StarArc Welding Machines"
                       fill
                       className="object-cover"
@@ -192,7 +192,7 @@ const Hero = ({ dictionary }: HeroProps) => {
                   </div>
                   <div className="relative h-20 rounded-lg overflow-hidden">
                     <Image
-                      src="/assets/apw/produk_allostar.webp"
+                      src="/assets/products/gallery/allostar/1.webp"
                       alt="AlloyStar Wear Plate"
                       fill
                       className="object-cover"

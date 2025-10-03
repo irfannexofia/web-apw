@@ -93,9 +93,10 @@ const Products = ({ dictionary }: ProductsProps) => {
       type: dictionary.products.starlet.type,
       description: dictionary.products.starlet.description,
       features: dictionary.products.starlet.features,
-      image: "/assets/apw/produk_starlet.webp",
+      image: "/assets/products/gallery/starlet/1.webp",
       logo: "/assets/products/logo/products-starlet-logo.webp",
       color: "primary",
+      isDisable: true,
     },
     {
       id: 2,
@@ -103,9 +104,10 @@ const Products = ({ dictionary }: ProductsProps) => {
       type: dictionary.products.stararc.type,
       description: dictionary.products.stararc.description,
       features: dictionary.products.stararc.features,
-      image: "/assets/apw/produk_starc.webp",
+      image: "/assets/products/gallery/stararc/1.webp",
       logo: "/assets/products/logo/products-stararc-logo.webp",
       color: "apw-mid-gray",
+      isDisable: false,
     },
     {
       id: 3,
@@ -113,9 +115,10 @@ const Products = ({ dictionary }: ProductsProps) => {
       type: dictionary.products.allostar.type,
       description: dictionary.products.allostar.description,
       features: dictionary.products.allostar.features,
-      image: "/assets/apw/produk_allostar.webp",
+      image: "/assets/products/gallery/allostar/1.webp",
       logo: "/assets/products/logo/products-allostar-logo.webp",
       color: "apw-gray-chateau",
+      isDisable: false,
     },
     {
       id: 4,
@@ -126,6 +129,7 @@ const Products = ({ dictionary }: ProductsProps) => {
       image: "/assets/apw/produk_tsv.webp",
       logo: "/assets/products/logo/products-tsv-logo.webp",
       color: "apw-mid-gray",
+      isDisable: false,
     },
   ];
 
@@ -339,13 +343,27 @@ const Products = ({ dictionary }: ProductsProps) => {
 
                   {/* CTA Buttons */}
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link
-                      href={`/${currentLang}/products/${productSlugs[product.id as keyof typeof productSlugs]}`}
-                      className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-white bg-primary hover:bg-primaryDark transition-all duration-300 transform hover:scale-105 shadow-lg"
-                    >
-                      <IconifyIcon icon="lucide:eye" className="w-5 h-5 mr-2" />
-                      View Details
-                    </Link>
+                    {product.isDisable ? (
+                      <div className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-white bg-primary hover:bg-primaryDark transition-all duration-300 transform hover:scale-105 shadow-lg">
+                        <IconifyIcon
+                          icon="lucide:eye"
+                          className="w-5 h-5 mr-2"
+                        />
+                        View Details
+                      </div>
+                    ) : (
+                      <Link
+                        href={`/${currentLang}/products/${productSlugs[product.id as keyof typeof productSlugs]}`}
+                        className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-white bg-primary hover:bg-primaryDark transition-all duration-300 transform hover:scale-105 shadow-lg"
+                      >
+                        <IconifyIcon
+                          icon="lucide:eye"
+                          className="w-5 h-5 mr-2"
+                        />
+                        View Details
+                      </Link>
+                    )}
+
                     <a
                       href={
                         productSlugs[

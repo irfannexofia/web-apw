@@ -374,6 +374,59 @@ const Clients = ({ dictionary }: ClientsProps) => {
                   </div>
                 </div>
               ))}
+
+              <div className="group bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 hover:from-primary/5 hover:to-primary/10 hover:shadow-lg transition-all duration-300 border border-gray-200">
+                {/* Special Icon */}
+                <div className="flex items-center justify-center h-24 mb-4">
+                  <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center group-hover:bg-primary/20 transition-all duration-300">
+                    <IconifyIcon
+                      icon="lucide:users"
+                      className="w-8 h-8 text-primary"
+                    />
+                  </div>
+                </div>
+
+                {/* Content */}
+                <div className="text-center">
+                  <h4 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-primary transition-colors">
+                    And Many Others
+                  </h4>
+                  <p className="text-primary font-medium mb-3 text-sm">
+                    Trusted Partners
+                  </p>
+
+                  {/* Info Highlight */}
+                  <div className="bg-white rounded-lg p-3 mb-3">
+                    <h5 className="font-semibold text-gray-900 mb-1 flex items-center justify-center text-sm">
+                      <IconifyIcon
+                        icon="lucide:building"
+                        className="w-3 h-3 mr-1 text-primary"
+                      />
+                      Sectors:
+                    </h5>
+                    <div className="flex flex-wrap justify-center gap-1">
+                      <span className="px-2 py-1 bg-primary/10 text-primary rounded text-xs">
+                        Mining
+                      </span>
+                      <span className="px-2 py-1 bg-primary/10 text-primary rounded text-xs">
+                        Oil & Gas
+                      </span>
+                      <span className="px-2 py-1 bg-primary/10 text-primary rounded text-xs">
+                        Power
+                      </span>
+                      <span className="px-2 py-1 bg-primary/10 text-primary rounded text-xs">
+                        Cement
+                      </span>
+                    </div>
+                  </div>
+
+                  <p className="text-gray-600 text-xs leading-relaxed">
+                    Our extensive client portfolio includes numerous companies
+                    across various industrial sectors throughout Indonesia and
+                    Southeast Asia.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
