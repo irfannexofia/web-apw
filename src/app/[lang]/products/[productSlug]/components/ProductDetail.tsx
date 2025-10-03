@@ -362,8 +362,7 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
             },
             {
               name: "AlloyStar® 607AS",
-              description:
-                "Tough Abrasion & Moderate Impact & Working Temperature up to 850°C",
+              description: "Tough Abrasion & Moderate Impact & Working Temperature up to 850°C",
               specs: "All weldable steels, mostly structural steels",
               standard: "58 – 65 HRC",
             },
@@ -638,11 +637,13 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
                     <thead>
                       <tr className="border-b border-gray-200">
                         <th className="text-left py-3 px-4 font-semibold text-gray-900">
-                          Product
+                          {productSlug === "allostar" ? "Model" : "Product"}
                         </th>
-                        <th className="text-left py-3 px-4 font-semibold text-gray-900">
-                          Description
-                        </th>
+                        {productSlug !== "allostar" && (
+                          <th className="text-left py-3 px-4 font-semibold text-gray-900">
+                            Description
+                          </th>
+                        )}
                         {productSlug === "starlet" && (
                           <>
                             <th className="text-left py-3 px-4 font-semibold text-gray-900">
@@ -658,8 +659,18 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
                             Technical Parameter
                           </th>
                         )}
+                        {productSlug === "allostar" && (
+                          <>
+                            <th className="text-left py-3 px-4 font-semibold text-gray-900">
+                              Base Material
+                            </th>
+                            <th className="text-left py-3 px-4 font-semibold text-gray-900">
+                              Application
+                            </th>
+                          </>
+                        )}
                         <th className="text-left py-3 px-4 font-semibold text-gray-900">
-                          Standard
+                          {productSlug === "allostar" ? "Hardness" : "Standard"}
                         </th>
                       </tr>
                     </thead>
@@ -672,9 +683,11 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
                           <td className="py-3 px-4 font-medium text-gray-900">
                             {item.name}
                           </td>
-                          <td className="py-3 px-4 text-gray-700">
-                            {item.description}
-                          </td>
+                          {productSlug !== "allostar" && (
+                            <td className="py-3 px-4 text-gray-700">
+                              {item.description}
+                            </td>
+                          )}
                           {productSlug === "starlet" && "sizes" in item && (
                             <>
                               <td className="py-3 px-4 text-gray-700">
@@ -690,8 +703,18 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
                               {item.specs}
                             </td>
                           )}
+                          {productSlug === "allostar" && "specs" in item && (
+                            <>
+                              <td className="py-3 px-4 text-gray-700">
+                                {item.specs}
+                              </td>
+                              <td className="py-3 px-4 text-gray-700">
+                                {item.description}
+                              </td>
+                            </>
+                          )}
                           <td className="py-3 px-4 text-gray-700">
-                            {item.standard}
+                            {productSlug === "allostar" ? item.standard : item.standard}
                           </td>
                         </tr>
                       ))}
