@@ -256,6 +256,18 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
               specs: "Integrated/separated gas shielded",
               standard: "ISO, CE",
             },
+            {
+              name: "NBC 500X2",
+              description: "Dual - station gas shielded welding machine",
+              specs: "50 - 550 A each station",
+              standard: "ISO, CE",
+            },
+            {
+              name: "SAC 100",
+              description: "Welding carriage swing welding trolley automatic",
+              specs: "Four rims driving (rubber rim)",
+              standard: "ISO, CE",
+            },
           ],
         },
         {
@@ -362,7 +374,8 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
             },
             {
               name: "AlloyStar® 607AS",
-              description: "Tough Abrasion & Moderate Impact & Working Temperature up to 850°C",
+              description:
+                "Tough Abrasion & Moderate Impact & Working Temperature up to 850°C",
               specs: "All weldable steels, mostly structural steels",
               standard: "58 – 65 HRC",
             },
@@ -714,7 +727,9 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
                             </>
                           )}
                           <td className="py-3 px-4 text-gray-700">
-                            {productSlug === "allostar" ? item.standard : item.standard}
+                            {productSlug === "allostar"
+                              ? item.standard
+                              : item.standard}
                           </td>
                         </tr>
                       ))}
