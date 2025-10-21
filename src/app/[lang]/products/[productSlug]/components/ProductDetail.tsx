@@ -196,19 +196,16 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
               name: "ZX7-500",
               description: "High power, high current",
               specs: "Duty cycle 60%, 500A max",
-              standard: "ISO, CE",
             },
             {
               name: "ZX7-630",
               description: "Heavy-duty welding",
               specs: "Duty cycle 100%, 630A max",
-              standard: "ISO, CE",
             },
             {
               name: "CS-401/501",
               description: "Ultra-high voltage application",
               specs: "Voltage 220–380V, 500A max",
-              standard: "ISO, CE",
             },
           ],
         },
@@ -219,19 +216,16 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
               name: "WS-200/250",
               description: "Wide voltage TIG welding",
               specs: "Stainless steel factory use",
-              standard: "ISO, CE",
             },
             {
               name: "WSE-315",
               description: "Multi-functional AC/DC TIG",
               specs: "Aluminum + stainless",
-              standard: "ISO, CE",
             },
             {
               name: "WSM-400",
               description: "Pulsing argon welding",
               specs: "Precision industrial welding",
-              standard: "ISO, CE",
             },
           ],
         },
@@ -242,31 +236,26 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
               name: "NBC-350/500",
               description: "High current MIG welding",
               specs: "350–500A max",
-              standard: "ISO, CE",
             },
             {
               name: "NBC-630",
               description: "Heavy industry dual process",
               specs: "MIG/MMA + Carbon Gouging",
-              standard: "ISO, CE",
             },
             {
               name: "NBC-270/315",
               description: "Special for thin plates",
               specs: "Integrated/separated gas shielded",
-              standard: "ISO, CE",
             },
             {
               name: "NBC 500X2",
               description: "Dual - station gas shielded welding machine",
-              specs: "50 - 550 A each station",
-              standard: "ISO, CE",
+              specs: "50 - 550 A each station",
             },
             {
               name: "SAC 100",
               description: "Welding carriage swing welding trolley automatic",
-              specs: "Four rims driving (rubber rim)",
-              standard: "ISO, CE",
+              specs: "Four rims driving (rubber rim)",
             },
           ],
         },
@@ -277,7 +266,6 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
               name: "ZD7-1250",
               description: "Inverter automatic SAW machine",
               specs: "1250A max, steel & shipbuilding",
-              standard: "ISO, CE",
             },
           ],
         },
@@ -288,13 +276,11 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
               name: "LGK-120/160/200",
               description: "CNC plasma cutting",
               specs: "Heavy industry, pump integrated",
-              standard: "ISO, CE",
             },
             {
               name: "LGK-80",
               description: "Wide voltage plasma cutting",
               specs: "220V/380V auto-switch",
-              standard: "ISO, CE",
             },
           ],
         },
@@ -682,9 +668,13 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
                             </th>
                           </>
                         )}
-                        <th className="text-left py-3 px-4 font-semibold text-gray-900">
-                          {productSlug === "allostar" ? "Hardness" : "Standard"}
-                        </th>
+                        {productSlug !== "stararc" && (
+                          <th className="text-left py-3 px-4 font-semibold text-gray-900">
+                            {productSlug === "allostar"
+                              ? "Hardness"
+                              : "Standard"}
+                          </th>
+                        )}
                       </tr>
                     </thead>
                     <tbody>
@@ -726,11 +716,14 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
                               </td>
                             </>
                           )}
-                          <td className="py-3 px-4 text-gray-700">
-                            {productSlug === "allostar"
-                              ? item.standard
-                              : item.standard}
-                          </td>
+                          {productSlug !== "stararc" && (
+                            <td className="py-3 px-4 text-gray-700">
+                              {productSlug === "allostar"
+                                ? (item as { standard: string }).standard
+                                : (item as { standard?: string }).standard ||
+                                  ""}
+                            </td>
+                          )}
                         </tr>
                       ))}
                     </tbody>
