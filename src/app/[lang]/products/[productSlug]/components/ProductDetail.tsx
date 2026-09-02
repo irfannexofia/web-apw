@@ -71,23 +71,23 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
       gallery: [
         {
           src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
-          alt: "STARLET Welding Consumables Gallery 1",
+          alt: "STARLET Welding Machines Gallery 1",
+        },
+        {
+          src: "/assets/products/gallery/starlet/starlet-welding-machines-3.png",
+          alt: "STARLET Welding Machines Gallery 2",
+        },
+        {
+          src: "/assets/products/gallery/starlet/starlet-welding-machines-2.png",
+          alt: "STARLET Welding Machines Gallery 3",
+        },
+        {
+          src: "/assets/products/gallery/starlet/starlet-welding-machines-1.png",
+          alt: "STARLET Welding Machines Gallery 4",
         },
         {
           src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
-          alt: "STARLET Welding Consumables Gallery 2",
-        },
-        {
-          src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
-          alt: "STARLET Welding Consumables Gallery 3",
-        },
-        {
-          src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
-          alt: "STARLET Welding Consumables Gallery 4",
-        },
-        {
-          src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
-          alt: "STARLET Welding Consumables Gallery 5",
+          alt: "STARLET Welding Machines Gallery 5",
         },
       ],
       variants: [

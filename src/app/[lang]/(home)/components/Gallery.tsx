@@ -44,27 +44,27 @@ const Gallery = ({ dictionary }: GalleryProps) => {
     // STARLET Images
     {
       src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
-      alt: "STARLET Welding Consumables - E6013 Electrodes",
+      alt: "STARLET Welding Machines - ARC 200 Pro",
+      category: "STARLET",
+    },
+    {
+      src: "/assets/products/gallery/starlet/starlet-welding-machines-3.png",
+      alt: "STARLET Welding Machines - MIG-MAG",
+      category: "STARLET",
+    },
+    {
+      src: "/assets/products/gallery/starlet/starlet-welding-machines-2.png",
+      alt: "STARLET Welding Machines - TIG",
+      category: "STARLET",
+    },
+    {
+      src: "/assets/products/gallery/starlet/starlet-welding-machines-1.png",
+      alt: "STARLET Welding Machines - Welding Machine",
       category: "STARLET",
     },
     {
       src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
-      alt: "STARLET Welding Consumables - E7018 Electrodes",
-      category: "STARLET",
-    },
-    {
-      src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
-      alt: "STARLET Welding Consumables - ER70S-6 Solid Wire",
-      category: "STARLET",
-    },
-    {
-      src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
-      alt: "STARLET Welding Consumables - Flux-Cored Wires",
-      category: "STARLET",
-    },
-    {
-      src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
-      alt: "STARLET Welding Consumables - TIG Filler Rods",
+      alt: "STARLET Welding Machines - Industrial Welding Equipment",
       category: "STARLET",
     },
     // STARARC Images
