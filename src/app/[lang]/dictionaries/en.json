@@ -98,14 +98,15 @@
     "subtitle": "PT. Anugerah Panca Wisesa (APW) offers superior product lines that are primary solutions for welding, cutting, wear protection, and industrial valve systems.",
     "description": "We distribute four premier product lines that form the foundation of APW's distribution excellence: STARLET Welding Consumables, StarArc Welding Machines, AlloyStar Wear Plate, and TSV Industrial Valves.",
     "starlet": {
-      "name": "STARLET® Welding Consumables",
-      "type": "Welding Consumables",
-      "description": "High-quality consumables for various welding processes including SMAW, GMAW/MAG, FCAW, and GTAW/TIG",
+      "name": "STARLET® Welding Machines",
+      "type": "Welding Machines",
+      "description": "Advanced welding solutions designed to deliver reliable performance, precise control, and consistent results across professional and industrial applications.",
       "features": [
-        "Stable arc & easy ignition",
-        "Easy slag removal, neat weld results",
-        "Optimal deposition rate with high efficiency",
-        "Controlled chemical composition"
+        "Advanced Welding Technology",
+        "Stable & Precise Arc Performance",
+        "Multi-Process Welding Solutions",
+        "Heavy-Duty Industrial Models",
+        "Compact & Portable Options"
       ]
     },
     "stararc": {

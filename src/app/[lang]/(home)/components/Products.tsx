@@ -93,7 +93,7 @@ const Products = ({ dictionary }: ProductsProps) => {
       type: dictionary.products.starlet.type,
       description: dictionary.products.starlet.description,
       features: dictionary.products.starlet.features,
-      image: "/assets/products/gallery/starlet/1.webp",
+      image: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
       logo: "/assets/products/logo/products-starlet-logo.webp",
       color: "primary",
       isDisable: true,
@@ -184,34 +184,43 @@ const Products = ({ dictionary }: ProductsProps) => {
                         icon="lucide:settings"
                         className="w-5 h-5 mr-2 text-primary"
                       />
-                      Technical Specifications
+                      {product.id === 1 ? "Product Range" : "Technical Specifications"}
                     </h4>
-                    <div className="grid grid-cols-2 gap-4 text-sm">
-                      <div className="flex justify-between">
-                        <span className="text-gray-600">Standards:</span>
-                        <span className="text-gray-900 font-medium">
-                          API, ASME, ANSI
-                        </span>
+                    {product.id === 1 ? (
+                      <div className="space-y-4 text-sm">
+                        <div>
+                          <span className="block text-gray-600">Welding Processes</span>
+                          <span className="text-gray-900 font-medium">
+                            ARC / MIG-MAG / TIG / MMA / FCAW
+                          </span>
+                        </div>
+                        <div>
+                          <span className="block text-gray-600">Cutting & Laser</span>
+                          <span className="text-gray-900 font-medium">
+                            Plasma Cutting / Laser Welding / Cutting / Cleaning
+                          </span>
+                        </div>
                       </div>
-                      <div className="flex justify-between">
-                        <span className="text-gray-600">Quality:</span>
-                        <span className="text-gray-900 font-medium">
-                          OEM Grade
-                        </span>
+                    ) : (
+                      <div className="grid grid-cols-2 gap-4 text-sm">
+                        <div className="flex justify-between">
+                          <span className="text-gray-600">Standards:</span>
+                          <span className="text-gray-900 font-medium">API, ASME, ANSI</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-gray-600">Quality:</span>
+                          <span className="text-gray-900 font-medium">OEM Grade</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-gray-600">Support:</span>
+                          <span className="text-gray-900 font-medium">24/7 Technical</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-gray-600">Delivery:</span>
+                          <span className="text-gray-900 font-medium">Fast & Reliable</span>
+                        </div>
                       </div>
-                      <div className="flex justify-between">
-                        <span className="text-gray-600">Support:</span>
-                        <span className="text-gray-900 font-medium">
-                          24/7 Technical
-                        </span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-gray-600">Delivery:</span>
-                        <span className="text-gray-900 font-medium">
-                          Fast & Reliable
-                        </span>
-                      </div>
-                    </div>
+                    )}
                   </div>
                 </div>
               </div>
@@ -277,16 +286,22 @@ const Products = ({ dictionary }: ProductsProps) => {
                       {product.id === 1 && (
                         <>
                           <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
-                            General Fabrication
-                          </span>
-                          <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
-                            Maintenance
-                          </span>
-                          <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
                             Construction
                           </span>
                           <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
-                            Oil & Gas
+                            Shipyards
+                          </span>
+                          <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
+                            Automotive
+                          </span>
+                          <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
+                            Energy
+                          </span>
+                          <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
+                            Pipe Lines
+                          </span>
+                          <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
+                            Industrial Facilities
                           </span>
                         </>
                       )}
@@ -369,7 +384,7 @@ const Products = ({ dictionary }: ProductsProps) => {
                         productSlugs[
                           product.id as keyof typeof productSlugs
                         ] === "starlet"
-                          ? "https://cdn.digitalasianusantara.co.id/website/anugerahpancawisesa/product-catalog/products-starlet-catalog.pdf"
+                          ? "/assets/products/catalog/APW-Mesin-Las.pdf"
                           : productSlugs[
                                 product.id as keyof typeof productSlugs
                               ] === "stararc"

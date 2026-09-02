@@ -134,13 +134,13 @@ const Hero = ({ dictionary }: HeroProps) => {
                         STARLET®
                       </h4>
                       <p className="text-xs text-gray-700">
-                        Welding Consumables
+                        Welding Machines
                       </p>
                     </div>
                   </div>
                   <div className="relative h-20 rounded-lg overflow-hidden">
                     <Image
-                      src="/assets/products/gallery/starlet/1.webp"
+                      src="/assets/products/gallery/starlet/starlet-welding-machines-main.png"
                       alt="STARLET Welding Consumables"
                       fill
                       className="object-cover"

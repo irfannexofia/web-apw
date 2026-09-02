@@ -43,27 +43,27 @@ const Gallery = ({ dictionary }: GalleryProps) => {
   const galleryImages = [
     // STARLET Images
     {
-      src: "/assets/products/gallery/starlet/1.webp",
+      src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
       alt: "STARLET Welding Consumables - E6013 Electrodes",
       category: "STARLET",
     },
     {
-      src: "/assets/products/gallery/starlet/2.webp",
+      src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
       alt: "STARLET Welding Consumables - E7018 Electrodes",
       category: "STARLET",
     },
     {
-      src: "/assets/products/gallery/starlet/3.webp",
+      src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
       alt: "STARLET Welding Consumables - ER70S-6 Solid Wire",
       category: "STARLET",
     },
     {
-      src: "/assets/products/gallery/starlet/4.webp",
+      src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
       alt: "STARLET Welding Consumables - Flux-Cored Wires",
       category: "STARLET",
     },
     {
-      src: "/assets/products/gallery/starlet/5.webp",
+      src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
       alt: "STARLET Welding Consumables - TIG Filler Rods",
       category: "STARLET",
     },

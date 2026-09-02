@@ -66,27 +66,27 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
       type: dictionary.products.starlet.type,
       description: dictionary.products.starlet.description,
       features: dictionary.products.starlet.features,
-      heroImage: "/assets/products/gallery/starlet/1.webp",
+      heroImage: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
       logo: "/assets/products/logo/products-starlet-logo.webp",
       gallery: [
         {
-          src: "/assets/products/gallery/starlet/1.webp",
+          src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
           alt: "STARLET Welding Consumables Gallery 1",
         },
         {
-          src: "/assets/products/gallery/starlet/2.webp",
+          src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
           alt: "STARLET Welding Consumables Gallery 2",
         },
         {
-          src: "/assets/products/gallery/starlet/3.webp",
+          src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
           alt: "STARLET Welding Consumables Gallery 3",
         },
         {
-          src: "/assets/products/gallery/starlet/4.webp",
+          src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
           alt: "STARLET Welding Consumables Gallery 4",
         },
         {
-          src: "/assets/products/gallery/starlet/5.webp",
+          src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
           alt: "STARLET Welding Consumables Gallery 5",
         },
       ],
@@ -599,7 +599,7 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
               <a
                 href={
                   productSlug === "starlet"
-                    ? "https://cdn.digitalasianusantara.co.id/website/anugerahpancawisesa/product-catalog/products-starlet-catalog.pdf"
+                    ? "/assets/products/catalog/APW-Mesin-Las.pdf"
                     : productSlug === "stararc"
                       ? "https://cdn.digitalasianusantara.co.id/website/anugerahpancawisesa/product-catalog/products-stararc-catalog.pdf"
                       : productSlug === "allostar"
