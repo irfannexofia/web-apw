@@ -601,9 +601,9 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
                   productSlug === "starlet"
                     ? "/assets/products/catalog/APW-Mesin-Las.pdf"
                     : productSlug === "stararc"
-                      ? "https://cdn.digitalasianusantara.co.id/website/anugerahpancawisesa/product-catalog/products-stararc-catalog.pdf"
+                      ? "/assets/products/catalog/StarArc-Welding-Machines-Catalogue.pdf"
                       : productSlug === "allostar"
-                        ? "https://cdn.digitalasianusantara.co.id/website/anugerahpancawisesa/product-catalog/products-allostar-catalog.pdf"
+                        ? "/assets/products/catalog/AlloyStar-Wear-Plate-Catalog.pdf"
                         : "https://cdn.digitalasianusantara.co.id/website/anugerahpancawisesa/product-catalog/products-tsv-catalog.pdf"
                 }
                 target="_blank"
@@ -814,4 +814,7 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
 };
 
 export default ProductDetail;
+
+
+
 

@@ -285,7 +285,7 @@ const Gallery = ({ dictionary }: GalleryProps) => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://cdn.digitalasianusantara.co.id/website/anugerahpancawisesa/product-catalog/products-allostar-catalog.pdf"
+                href="/assets/products/catalog/AlloyStar-Wear-Plate-Catalog.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-8 py-4 bg-white text-primary font-semibold rounded-lg hover:bg-gray-100 transition-colors duration-300"
@@ -321,3 +321,6 @@ const Gallery = ({ dictionary }: GalleryProps) => {
 };
 
 export default Gallery;
+
+
+

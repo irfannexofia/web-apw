@@ -388,11 +388,11 @@ const Products = ({ dictionary }: ProductsProps) => {
                           : productSlugs[
                                 product.id as keyof typeof productSlugs
                               ] === "stararc"
-                            ? "https://cdn.digitalasianusantara.co.id/website/anugerahpancawisesa/product-catalog/products-stararc-catalog.pdf"
+                            ? "/assets/products/catalog/StarArc-Welding-Machines-Catalogue.pdf"
                             : productSlugs[
                                   product.id as keyof typeof productSlugs
                                 ] === "allostar"
-                              ? "https://cdn.digitalasianusantara.co.id/website/anugerahpancawisesa/product-catalog/products-allostar-catalog.pdf"
+                              ? "/assets/products/catalog/AlloyStar-Wear-Plate-Catalog.pdf"
                               : "https://cdn.digitalasianusantara.co.id/website/anugerahpancawisesa/product-catalog/products-tsv-catalog.pdf"
                       }
                       target="_blank"
@@ -498,3 +498,6 @@ const Products = ({ dictionary }: ProductsProps) => {
 };
 
 export default Products;
+
+
+
