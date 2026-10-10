@@ -814,3 +814,4 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
 };
 
 export default ProductDetail;
+
