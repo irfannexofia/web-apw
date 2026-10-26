@@ -181,7 +181,7 @@ export async function generateMetadata({
       description: info.description,
       images: [
         {
-          url: `https://anugerahpancawisesa.com/assets/products/${productSlug}-hero.webp`,
+          url: productSlug === "starlet" ? "https://anugerahpancawisesa.com/assets/products/starlet/ChatGPT%20Image%20Oct%2027,%202026,%2004_18_21%20AM.png" : `https://anugerahpancawisesa.com/assets/products/${productSlug}-hero.webp`,
           width: 1200,
           height: 630,
           alt: info.name,
@@ -194,7 +194,7 @@ export async function generateMetadata({
       title: `${info.name} | PT. ANUGERAH PANCA WISESA`,
       description: info.description,
       images: [
-        `https://anugerahpancawisesa.com/assets/products/${productSlug}-hero.webp`,
+        productSlug === "starlet" ? "https://anugerahpancawisesa.com/assets/products/starlet/ChatGPT%20Image%20Oct%2027,%202026,%2004_18_21%20AM.png" : `https://anugerahpancawisesa.com/assets/products/${productSlug}-hero.webp`,
       ],
     },
     alternates: {

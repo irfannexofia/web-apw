@@ -66,28 +66,28 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
       type: dictionary.products.starlet.type,
       description: dictionary.products.starlet.description,
       features: dictionary.products.starlet.features,
-      heroImage: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
+      heroImage: "/assets/products/starlet/ChatGPT Image Oct 27, 2026, 04_18_21 AM.png",
       logo: "/assets/products/logo/products-starlet-logo.webp",
       gallery: [
         {
-          src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
-          alt: "STARLET Welding Machines Gallery 1",
+          src: "/assets/products/starlet/ChatGPT Image Oct 27, 2026, 04_18_21 AM.png",
+          alt: "STARLET welding consumables",
         },
         {
-          src: "/assets/products/gallery/starlet/starlet-welding-machines-3.png",
-          alt: "STARLET Welding Machines Gallery 2",
+          src: "/assets/products/starlet/ChatGPT Image Oct 27, 2026, 04_18_32 AM.png",
+          alt: "STARLET welding electrodes",
         },
         {
-          src: "/assets/products/gallery/starlet/starlet-welding-machines-2.png",
-          alt: "STARLET Welding Machines Gallery 3",
+          src: "/assets/products/starlet/ChatGPT Image Oct 27, 2026, 04_18_37 AM.png",
+          alt: "STARLET welding wires",
         },
         {
-          src: "/assets/products/gallery/starlet/starlet-welding-machines-1.png",
-          alt: "STARLET Welding Machines Gallery 4",
+          src: "/assets/products/starlet/ChatGPT Image Oct 27, 2026, 04_18_43 AM.png",
+          alt: "STARLET welding products",
         },
         {
-          src: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
-          alt: "STARLET Welding Machines Gallery 5",
+          src: "/assets/products/starlet/ChatGPT Image Oct 27, 2026, 04_18_21 AM.png",
+          alt: "STARLET welding consumables",
         },
       ],
       variants: [
@@ -599,7 +599,7 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
               <a
                 href={
                   productSlug === "starlet"
-                    ? "/assets/products/catalog/APW-Mesin-Las.pdf"
+                    ? "/assets/products/catalog/Starlet-Catalogue.pdf"
                     : productSlug === "stararc"
                       ? "/assets/products/catalog/StarArc-Welding-Machines-Catalogue.pdf"
                       : productSlug === "allostar"
@@ -814,6 +814,7 @@ const ProductDetail = ({ dictionary, productSlug }: ProductDetailProps) => {
 };
 
 export default ProductDetail;
+
 
 
 

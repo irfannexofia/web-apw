@@ -96,7 +96,7 @@ const Products = ({ dictionary }: ProductsProps) => {
       image: "/assets/products/gallery/starlet/starlet-welding-machines-main.png",
       logo: "/assets/products/logo/products-starlet-logo.webp",
       color: "primary",
-      isDisable: true,
+      isDisable: false,
     },
     {
       id: 2,
@@ -170,7 +170,7 @@ const Products = ({ dictionary }: ProductsProps) => {
                 <div className="bg-white border-2 border-primary/10 rounded-2xl p-8 shadow-xl">
                   <div className="relative h-80 rounded-xl overflow-hidden">
                     <Image
-                      src={product.image}
+                      src={product.id === 1 ? "/assets/products/starlet/ChatGPT Image Oct 27, 2026, 04_18_21 AM.png" : product.image}
                       alt={product.name}
                       fill
                       className="object-cover"
@@ -358,33 +358,23 @@ const Products = ({ dictionary }: ProductsProps) => {
 
                   {/* CTA Buttons */}
                   <div className="flex flex-col sm:flex-row gap-4">
-                    {product.isDisable ? (
-                      <div className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-white bg-primary hover:bg-primaryDark transition-all duration-300 transform hover:scale-105 shadow-lg">
+                    <Link
+                      href={`/${currentLang}/products/${productSlugs[product.id as keyof typeof productSlugs]}`}
+                      className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-white bg-primary hover:bg-primaryDark transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    >
                         <IconifyIcon
                           icon="lucide:eye"
                           className="w-5 h-5 mr-2"
                         />
                         View Details
-                      </div>
-                    ) : (
-                      <Link
-                        href={`/${currentLang}/products/${productSlugs[product.id as keyof typeof productSlugs]}`}
-                        className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-white bg-primary hover:bg-primaryDark transition-all duration-300 transform hover:scale-105 shadow-lg"
-                      >
-                        <IconifyIcon
-                          icon="lucide:eye"
-                          className="w-5 h-5 mr-2"
-                        />
-                        View Details
-                      </Link>
-                    )}
+                    </Link>
 
                     <a
                       href={
                         productSlugs[
                           product.id as keyof typeof productSlugs
                         ] === "starlet"
-                          ? "/assets/products/catalog/APW-Mesin-Las.pdf"
+                          ? "/assets/products/catalog/Starlet-Catalogue.pdf"
                           : productSlugs[
                                 product.id as keyof typeof productSlugs
                               ] === "stararc"
@@ -498,6 +488,7 @@ const Products = ({ dictionary }: ProductsProps) => {
 };
 
 export default Products;
+
 
 
 
